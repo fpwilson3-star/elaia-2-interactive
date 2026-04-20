@@ -1,0 +1,1445 @@
+{
+  "subgroups": {
+    "overall": {
+      "label": "Overall (full cohort)",
+      "group": "Full cohort",
+      "n_alert": 2532,
+      "n_usual": 2528,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "475 (19%)",
+          "usual": "505 (20%)",
+          "rr": "0.95 (0.85\u20131.06)",
+          "p": "0.33"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "123 (4.9%)",
+          "usual": "127 (5.0%)",
+          "rr": "0.98 (0.77\u20131.25)",
+          "p": "0.88"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "253 (10.0%)",
+          "usual": "282 (11%)",
+          "rr": "0.90 (0.77\u20131.06)",
+          "p": "0.19"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "356 (14%)",
+          "usual": "365 (14%)",
+          "rr": "0.98 (0.86\u20131.12)",
+          "p": "0.76"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "151 (6.0%)",
+          "usual": "137 (5.4%)",
+          "rr": "1.12 (0.89\u20131.40)",
+          "p": "0.33"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "242 (9.6%)",
+          "usual": "248 (9.8%)",
+          "rr": "0.98 (0.83\u20131.16)",
+          "p": "0.80"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "231 (9.1%)",
+          "usual": "256 (10%)",
+          "rr": "0.91 (0.77\u20131.08)",
+          "p": "0.28"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "322 (13%)",
+          "usual": "354 (14%)",
+          "rr": "0.91 (0.79\u20131.05)",
+          "p": "0.18"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "367 (14%)",
+          "usual": "366 (14%)",
+          "rr": "1.01 (0.88\u20131.15)",
+          "p": "0.92"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.8, 2.1)",
+          "usual": "1.1 (0.8, 2.2)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "5.3 (2.3, 11.8)",
+          "usual": "5.2 (2.2, 11.2)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "nsaid": {
+      "label": "NSAID-exposed",
+      "group": "MOI exposure",
+      "n_alert": 748,
+      "n_usual": 805,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "131 (18%)",
+          "usual": "147 (18%)",
+          "rr": "0.96 (0.78\u20131.19)",
+          "p": "0.71"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "25 (3.3%)",
+          "usual": "32 (4.0%)",
+          "rr": "0.83 (0.49\u20131.40)",
+          "p": "0.49"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "52 (7.0%)",
+          "usual": "74 (9.2%)",
+          "rr": "0.75 (0.54\u20131.05)",
+          "p": "0.10"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "76 (10%)",
+          "usual": "89 (11%)",
+          "rr": "0.91 (0.68\u20131.21)",
+          "p": "0.50"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "28 (3.7%)",
+          "usual": "35 (4.3%)",
+          "rr": "0.86 (0.53\u20131.40)",
+          "p": "0.54"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "71 (9.5%)",
+          "usual": "71 (8.8%)",
+          "rr": "1.08 (0.79\u20131.48)",
+          "p": "0.64"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "60 (8.0%)",
+          "usual": "76 (9.4%)",
+          "rr": "0.85 (0.61\u20131.18)",
+          "p": "0.32"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "95 (13%)",
+          "usual": "115 (14%)",
+          "rr": "0.91 (0.71\u20131.17)",
+          "p": "0.45"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "80 (11%)",
+          "usual": "92 (11%)",
+          "rr": "0.96 (0.73\u20131.28)",
+          "p": "0.80"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.7, 2.0)",
+          "usual": "1.0 (0.7, 2.0)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "4.4 (2.1, 10.0)",
+          "usual": "4.4 (2.1, 10.3)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "raasi": {
+      "label": "RAASi-exposed",
+      "group": "MOI exposure",
+      "n_alert": 1350,
+      "n_usual": 1329,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "220 (16%)",
+          "usual": "208 (16%)",
+          "rr": "1.03 (0.87\u20131.23)",
+          "p": "0.70"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "46 (3.4%)",
+          "usual": "42 (3.2%)",
+          "rr": "1.07 (0.71\u20131.61)",
+          "p": "0.74"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "90 (6.7%)",
+          "usual": "98 (7.4%)",
+          "rr": "0.90 (0.69\u20131.19)",
+          "p": "0.46"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "132 (9.8%)",
+          "usual": "129 (9.7%)",
+          "rr": "1.00 (0.80\u20131.26)",
+          "p": "0.97"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "58 (4.3%)",
+          "usual": "46 (3.5%)",
+          "rr": "1.23 (0.84\u20131.80)",
+          "p": "0.28"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "121 (9.0%)",
+          "usual": "117 (8.8%)",
+          "rr": "1.01 (0.79\u20131.29)",
+          "p": "0.92"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "97 (7.2%)",
+          "usual": "91 (6.8%)",
+          "rr": "1.04 (0.79\u20131.37)",
+          "p": "0.78"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "160 (12%)",
+          "usual": "188 (14%)",
+          "rr": "0.84 (0.69\u20131.02)",
+          "p": "0.08"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "181 (13%)",
+          "usual": "155 (12%)",
+          "rr": "1.14 (0.93\u20131.39)",
+          "p": "0.20"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.8, 2.0)",
+          "usual": "1.1 (0.8, 2.0)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "4.7 (2.1, 10.4)",
+          "usual": "4.4 (2.2, 9.8)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "ppi": {
+      "label": "PPI-exposed",
+      "group": "MOI exposure",
+      "n_alert": 1654,
+      "n_usual": 1644,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "349 (21%)",
+          "usual": "399 (24%)",
+          "rr": "0.88 (0.78\u20131.00)",
+          "p": "0.05"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "101 (6.1%)",
+          "usual": "114 (6.9%)",
+          "rr": "0.91 (0.70\u20131.18)",
+          "p": "0.48"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "215 (13%)",
+          "usual": "237 (14%)",
+          "rr": "0.90 (0.76\u20131.07)",
+          "p": "0.24"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "300 (18%)",
+          "usual": "306 (19%)",
+          "rr": "0.98 (0.85\u20131.13)",
+          "p": "0.77"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "124 (7.5%)",
+          "usual": "119 (7.2%)",
+          "rr": "1.08 (0.85\u20131.37)",
+          "p": "0.54"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "168 (10%)",
+          "usual": "181 (11%)",
+          "rr": "0.93 (0.76\u20131.13)",
+          "p": "0.46"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "180 (11%)",
+          "usual": "217 (13%)",
+          "rr": "0.84 (0.70\u20131.01)",
+          "p": "0.07"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "227 (14%)",
+          "usual": "227 (14%)",
+          "rr": "1.00 (0.85\u20131.19)",
+          "p": "0.97"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "252 (15%)",
+          "usual": "287 (17%)",
+          "rr": "0.89 (0.77\u20131.04)",
+          "p": "0.14"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.1 (0.8, 2.3)",
+          "usual": "1.1 (0.8, 2.8)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "6.0 (2.4, 13.1)",
+          "usual": "6.0 (2.4, 12.4)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "non_icu": {
+      "label": "Non-ICU at randomization",
+      "group": "ICU status",
+      "n_alert": 1972,
+      "n_usual": 1930,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "296 (15%)",
+          "usual": "299 (15%)",
+          "rr": "0.98 (0.84\u20131.13)",
+          "p": "0.77"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "65 (3.3%)",
+          "usual": "59 (3.1%)",
+          "rr": "1.10 (0.78\u20131.56)",
+          "p": "0.58"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "112 (5.7%)",
+          "usual": "135 (7.0%)",
+          "rr": "0.81 (0.64\u20131.03)",
+          "p": "0.09"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "174 (8.8%)",
+          "usual": "181 (9.4%)",
+          "rr": "0.94 (0.77\u20131.15)",
+          "p": "0.57"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "82 (4.2%)",
+          "usual": "66 (3.4%)",
+          "rr": "1.24 (0.90\u20131.71)",
+          "p": "0.18"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "161 (8.2%)",
+          "usual": "157 (8.1%)",
+          "rr": "1.01 (0.82\u20131.25)",
+          "p": "0.93"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "133 (6.7%)",
+          "usual": "141 (7.3%)",
+          "rr": "0.94 (0.75\u20131.18)",
+          "p": "0.57"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "273 (14%)",
+          "usual": "291 (15%)",
+          "rr": "0.92 (0.79\u20131.07)",
+          "p": "0.30"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "262 (13%)",
+          "usual": "250 (13%)",
+          "rr": "1.03 (0.88\u20131.21)",
+          "p": "0.69"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.8, 2.0)",
+          "usual": "1.0 (0.8, 2.0)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "4.4 (2.1, 10.3)",
+          "usual": "4.3 (2.1, 9.4)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "icu": {
+      "label": "ICU at randomization",
+      "group": "ICU status",
+      "n_alert": 560,
+      "n_usual": 598,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "179 (32%)",
+          "usual": "206 (34%)",
+          "rr": "0.94 (0.80\u20131.10)",
+          "p": "0.44"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "58 (10%)",
+          "usual": "68 (11%)",
+          "rr": "0.92 (0.66\u20131.28)",
+          "p": "0.61"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "141 (25%)",
+          "usual": "147 (25%)",
+          "rr": "1.04 (0.85\u20131.27)",
+          "p": "0.73"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "182 (32%)",
+          "usual": "184 (31%)",
+          "rr": "1.07 (0.90\u20131.26)",
+          "p": "0.46"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "69 (12%)",
+          "usual": "71 (12%)",
+          "rr": "1.04 (0.76\u20131.42)",
+          "p": "0.80"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "81 (14%)",
+          "usual": "91 (15%)",
+          "rr": "0.95 (0.72\u20131.26)",
+          "p": "0.73"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "98 (18%)",
+          "usual": "115 (19%)",
+          "rr": "0.92 (0.73\u20131.18)",
+          "p": "0.53"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "49 (8.8%)",
+          "usual": "63 (11%)",
+          "rr": "0.82 (0.58\u20131.17)",
+          "p": "0.28"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "105 (19%)",
+          "usual": "116 (19%)",
+          "rr": "0.97 (0.77\u20131.23)",
+          "p": "0.80"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.4 (0.7, 2.8)",
+          "usual": "1.4 (0.7, 3.1)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "8.7 (4.1, 17.9)",
+          "usual": "8.5 (3.9, 17.5)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "surgical": {
+      "label": "Surgical admission",
+      "group": "Admitting service",
+      "n_alert": 595,
+      "n_usual": 604,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "110 (18%)",
+          "usual": "123 (20%)",
+          "rr": "0.90 (0.72\u20131.13)",
+          "p": "0.37"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "18 (3.0%)",
+          "usual": "21 (3.5%)",
+          "rr": "0.86 (0.47\u20131.60)",
+          "p": "0.64"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "54 (9.1%)",
+          "usual": "54 (8.9%)",
+          "rr": "1.00 (0.70\u20131.42)",
+          "p": "0.98"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "70 (12%)",
+          "usual": "72 (12%)",
+          "rr": "0.97 (0.72\u20131.32)",
+          "p": "0.86"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "20 (3.4%)",
+          "usual": "24 (4.0%)",
+          "rr": "0.84 (0.47\u20131.50)",
+          "p": "0.56"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "60 (10%)",
+          "usual": "58 (9.6%)",
+          "rr": "1.05 (0.74\u20131.47)",
+          "p": "0.80"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "49 (8.2%)",
+          "usual": "65 (11%)",
+          "rr": "0.76 (0.53\u20131.08)",
+          "p": "0.12"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "70 (12%)",
+          "usual": "82 (14%)",
+          "rr": "0.87 (0.65\u20131.17)",
+          "p": "0.35"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "80 (13%)",
+          "usual": "81 (13%)",
+          "rr": "0.99 (0.75\u20131.32)",
+          "p": "0.95"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.7, 2.0)",
+          "usual": "1.1 (0.8, 2.3)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "5.6 (2.2, 12.0)",
+          "usual": "5.2 (2.4, 11.3)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "medical": {
+      "label": "Medical admission",
+      "group": "Admitting service",
+      "n_alert": 1937,
+      "n_usual": 1924,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "365 (19%)",
+          "usual": "382 (20%)",
+          "rr": "0.96 (0.84\u20131.09)",
+          "p": "0.53"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "105 (5.4%)",
+          "usual": "106 (5.5%)",
+          "rr": "1.00 (0.77\u20131.30)",
+          "p": "0.98"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "199 (10%)",
+          "usual": "228 (12%)",
+          "rr": "0.87 (0.73\u20131.04)",
+          "p": "0.14"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "286 (15%)",
+          "usual": "293 (15%)",
+          "rr": "0.98 (0.84\u20131.13)",
+          "p": "0.76"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "131 (6.8%)",
+          "usual": "113 (5.9%)",
+          "rr": "1.18 (0.92\u20131.50)",
+          "p": "0.19"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "182 (9.4%)",
+          "usual": "190 (9.9%)",
+          "rr": "0.96 (0.79\u20131.16)",
+          "p": "0.66"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "182 (9.4%)",
+          "usual": "191 (9.9%)",
+          "rr": "0.96 (0.79\u20131.16)",
+          "p": "0.69"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "252 (13%)",
+          "usual": "272 (14%)",
+          "rr": "0.92 (0.79\u20131.08)",
+          "p": "0.31"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "287 (15%)",
+          "usual": "285 (15%)",
+          "rr": "1.01 (0.87\u20131.17)",
+          "p": "0.88"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.1 (0.8, 2.2)",
+          "usual": "1.1 (0.8, 2.2)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "5.2 (2.3, 11.6)",
+          "usual": "5.2 (2.2, 11.1)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "creat_low": {
+      "label": "Baseline creatinine \u2264 0.80 mg/dL",
+      "group": "Baseline creatinine tertile",
+      "n_alert": 891,
+      "n_usual": 912,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "199 (22%)",
+          "usual": "203 (22%)",
+          "rr": "1.01 (0.85\u20131.19)",
+          "p": "0.95"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "31 (3.5%)",
+          "usual": "33 (3.6%)",
+          "rr": "0.97 (0.60\u20131.57)",
+          "p": "0.91"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "94 (11%)",
+          "usual": "94 (10%)",
+          "rr": "1.01 (0.77\u20131.33)",
+          "p": "0.92"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "131 (15%)",
+          "usual": "124 (14%)",
+          "rr": "1.07 (0.86\u20131.35)",
+          "p": "0.54"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "44 (4.9%)",
+          "usual": "37 (4.1%)",
+          "rr": "1.23 (0.80\u20131.89)",
+          "p": "0.34"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "101 (11%)",
+          "usual": "103 (11%)",
+          "rr": "1.00 (0.78\u20131.30)",
+          "p": "0.97"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "98 (11%)",
+          "usual": "99 (11%)",
+          "rr": "1.02 (0.78\u20131.32)",
+          "p": "0.91"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "115 (13%)",
+          "usual": "137 (15%)",
+          "rr": "0.86 (0.69\u20131.09)",
+          "p": "0.21"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "77 (8.6%)",
+          "usual": "77 (8.4%)",
+          "rr": "1.04 (0.77\u20131.40)",
+          "p": "0.79"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.7, 2.8)",
+          "usual": "1.0 (0.7, 2.8)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "5.2 (2.3, 11.9)",
+          "usual": "5.1 (2.3, 11.2)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "creat_mid": {
+      "label": "Baseline creatinine 0.80\u20131.20 mg/dL",
+      "group": "Baseline creatinine tertile",
+      "n_alert": 795,
+      "n_usual": 801,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "137 (17%)",
+          "usual": "160 (20%)",
+          "rr": "0.88 (0.71\u20131.08)",
+          "p": "0.21"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "26 (3.3%)",
+          "usual": "31 (3.9%)",
+          "rr": "0.86 (0.52\u20131.43)",
+          "p": "0.56"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "69 (8.7%)",
+          "usual": "75 (9.4%)",
+          "rr": "0.94 (0.69\u20131.28)",
+          "p": "0.69"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "92 (12%)",
+          "usual": "103 (13%)",
+          "rr": "0.91 (0.70\u20131.19)",
+          "p": "0.50"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "30 (3.8%)",
+          "usual": "33 (4.1%)",
+          "rr": "0.94 (0.58\u20131.52)",
+          "p": "0.81"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "77 (9.7%)",
+          "usual": "88 (11%)",
+          "rr": "0.89 (0.67\u20131.19)",
+          "p": "0.44"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "58 (7.3%)",
+          "usual": "72 (9.0%)",
+          "rr": "0.83 (0.60\u20131.15)",
+          "p": "0.27"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "84 (11%)",
+          "usual": "105 (13%)",
+          "rr": "0.81 (0.62\u20131.06)",
+          "p": "0.13"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "97 (12%)",
+          "usual": "110 (14%)",
+          "rr": "0.92 (0.72\u20131.19)",
+          "p": "0.53"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.7, 2.0)",
+          "usual": "1.0 (0.8, 2.0)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "5.0 (2.1, 10.4)",
+          "usual": "5.1 (2.2, 10.9)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "creat_high": {
+      "label": "Baseline creatinine > 1.20 mg/dL",
+      "group": "Baseline creatinine tertile",
+      "n_alert": 846,
+      "n_usual": 815,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "139 (16%)",
+          "usual": "142 (17%)",
+          "rr": "0.95 (0.77\u20131.18)",
+          "p": "0.66"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "66 (7.8%)",
+          "usual": "63 (7.7%)",
+          "rr": "1.03 (0.74\u20131.43)",
+          "p": "0.87"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "90 (11%)",
+          "usual": "113 (14%)",
+          "rr": "0.78 (0.60\u20131.01)",
+          "p": "0.06"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "133 (16%)",
+          "usual": "138 (17%)",
+          "rr": "0.94 (0.76\u20131.17)",
+          "p": "0.59"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "77 (9.1%)",
+          "usual": "67 (8.2%)",
+          "rr": "1.12 (0.82\u20131.53)",
+          "p": "0.47"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "64 (7.6%)",
+          "usual": "57 (7.0%)",
+          "rr": "1.09 (0.77\u20131.53)",
+          "p": "0.63"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "75 (8.9%)",
+          "usual": "85 (10%)",
+          "rr": "0.86 (0.64\u20131.16)",
+          "p": "0.33"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "123 (15%)",
+          "usual": "112 (14%)",
+          "rr": "1.06 (0.83\u20131.34)",
+          "p": "0.65"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "193 (23%)",
+          "usual": "179 (22%)",
+          "rr": "1.01 (0.85\u20131.21)",
+          "p": "0.89"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.1 (0.9, 2.1)",
+          "usual": "1.3 (0.9, 2.1)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "5.9 (2.4, 13.2)",
+          "usual": "5.5 (2.3, 11.2)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "hosp_1": {
+      "label": "Hospital 1",
+      "group": "Study hospital",
+      "n_alert": 1197,
+      "n_usual": 1250,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "252 (21%)",
+          "usual": "301 (24%)",
+          "rr": "0.87 (0.75\u20131.01)",
+          "p": "0.07"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "75 (6.3%)",
+          "usual": "87 (7.0%)",
+          "rr": "0.90 (0.67\u20131.21)",
+          "p": "0.49"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "128 (11%)",
+          "usual": "144 (12%)",
+          "rr": "0.93 (0.74\u20131.16)",
+          "p": "0.52"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "185 (15%)",
+          "usual": "193 (15%)",
+          "rr": "1.00 (0.83\u20131.20)",
+          "p": "0.99"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "95 (7.9%)",
+          "usual": "97 (7.8%)",
+          "rr": "1.02 (0.78\u20131.34)",
+          "p": "0.87"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "121 (10%)",
+          "usual": "140 (11%)",
+          "rr": "0.90 (0.72\u20131.14)",
+          "p": "0.38"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "130 (11%)",
+          "usual": "160 (13%)",
+          "rr": "0.85 (0.68\u20131.05)",
+          "p": "0.14"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "155 (13%)",
+          "usual": "186 (15%)",
+          "rr": "0.87 (0.71\u20131.06)",
+          "p": "0.17"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "195 (16%)",
+          "usual": "211 (17%)",
+          "rr": "0.97 (0.81\u20131.15)",
+          "p": "0.70"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.7, 2.1)",
+          "usual": "1.2 (0.8, 2.8)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "6.0 (2.5, 13.4)",
+          "usual": "6.3 (2.4, 12.7)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "hosp_2": {
+      "label": "Hospital 2",
+      "group": "Study hospital",
+      "n_alert": 623,
+      "n_usual": 591,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "90 (14%)",
+          "usual": "59 (10.0%)",
+          "rr": "1.45 (1.06\u20131.97)",
+          "p": "0.02"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "19 (3.0%)",
+          "usual": "13 (2.2%)",
+          "rr": "1.39 (0.69\u20132.78)",
+          "p": "0.36"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "34 (5.5%)",
+          "usual": "33 (5.6%)",
+          "rr": "0.98 (0.61\u20131.56)",
+          "p": "0.92"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "51 (8.2%)",
+          "usual": "41 (6.9%)",
+          "rr": "1.18 (0.79\u20131.75)",
+          "p": "0.41"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "27 (4.3%)",
+          "usual": "14 (2.4%)",
+          "rr": "1.83 (0.97\u20133.45)",
+          "p": "0.06"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "53 (8.5%)",
+          "usual": "35 (5.9%)",
+          "rr": "1.44 (0.95\u20132.17)",
+          "p": "0.08"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "37 (5.9%)",
+          "usual": "24 (4.1%)",
+          "rr": "1.46 (0.89\u20132.41)",
+          "p": "0.13"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "93 (15%)",
+          "usual": "90 (15%)",
+          "rr": "0.98 (0.75\u20131.28)",
+          "p": "0.88"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "79 (13%)",
+          "usual": "64 (11%)",
+          "rr": "1.17 (0.86\u20131.60)",
+          "p": "0.32"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.1 (0.9, 2.0)",
+          "usual": "1.1 (0.9, 2.0)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "5.1 (2.1, 10.3)",
+          "usual": "4.2 (2.1, 8.9)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "hosp_3": {
+      "label": "Hospital 3",
+      "group": "Study hospital",
+      "n_alert": 464,
+      "n_usual": 446,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "87 (19%)",
+          "usual": "101 (23%)",
+          "rr": "0.83 (0.64\u20131.07)",
+          "p": "0.15"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "16 (3.4%)",
+          "usual": "19 (4.3%)",
+          "rr": "0.81 (0.42\u20131.55)",
+          "p": "0.52"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "55 (12%)",
+          "usual": "72 (16%)",
+          "rr": "0.73 (0.53\u20131.02)",
+          "p": "0.06"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "70 (15%)",
+          "usual": "89 (20%)",
+          "rr": "0.76 (0.57\u20131.01)",
+          "p": "0.05"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "16 (3.4%)",
+          "usual": "21 (4.7%)",
+          "rr": "0.73 (0.39\u20131.39)",
+          "p": "0.34"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "44 (9.5%)",
+          "usual": "53 (12%)",
+          "rr": "0.80 (0.55\u20131.16)",
+          "p": "0.24"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "42 (9.1%)",
+          "usual": "48 (11%)",
+          "rr": "0.84 (0.57\u20131.25)",
+          "p": "0.39"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "50 (11%)",
+          "usual": "44 (9.9%)",
+          "rr": "1.09 (0.74\u20131.60)",
+          "p": "0.65"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "93 (20%)",
+          "usual": "91 (20%)",
+          "rr": "0.98 (0.76\u20131.27)",
+          "p": "0.89"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.1 (0.8, 2.3)",
+          "usual": "1.1 (0.9, 2.7)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "5.1 (2.3, 11.1)",
+          "usual": "4.6 (2.1, 10.5)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    },
+    "hosp_4": {
+      "label": "Hospital 4",
+      "group": "Study hospital",
+      "n_alert": 248,
+      "n_usual": 241,
+      "rows": [
+        {
+          "label": "Progression of AKI",
+          "type": "binary",
+          "alert": "46 (19%)",
+          "usual": "44 (18%)",
+          "rr": "1.02 (0.70\u20131.48)",
+          "p": "0.93"
+        },
+        {
+          "label": "Dialysis",
+          "type": "binary",
+          "alert": "13 (5.2%)",
+          "usual": "8 (3.3%)",
+          "rr": "1.58 (0.67\u20133.74)",
+          "p": "0.29"
+        },
+        {
+          "label": "Death",
+          "type": "binary",
+          "alert": "36 (15%)",
+          "usual": "33 (14%)",
+          "rr": "1.06 (0.68\u20131.64)",
+          "p": "0.79"
+        },
+        {
+          "label": "Inpatient mortality",
+          "type": "binary",
+          "alert": "50 (20%)",
+          "usual": "42 (17%)",
+          "rr": "1.16 (0.80\u20131.67)",
+          "p": "0.44"
+        },
+        {
+          "label": "Inpatient dialysis",
+          "type": "binary",
+          "alert": "13 (5.2%)",
+          "usual": "5 (2.1%)",
+          "rr": "2.53 (0.91\u20136.98)",
+          "p": "0.06"
+        },
+        {
+          "label": "Progression to stage 2 AKI",
+          "type": "binary",
+          "alert": "24 (9.7%)",
+          "usual": "20 (8.3%)",
+          "rr": "1.17 (0.66\u20132.05)",
+          "p": "0.59"
+        },
+        {
+          "label": "Progression to stage 3 AKI",
+          "type": "binary",
+          "alert": "22 (8.9%)",
+          "usual": "24 (10.0%)",
+          "rr": "0.89 (0.51\u20131.55)",
+          "p": "0.68"
+        },
+        {
+          "label": "30-day readmission",
+          "type": "binary",
+          "alert": "24 (9.7%)",
+          "usual": "34 (14%)",
+          "rr": "0.69 (0.42\u20131.12)",
+          "p": "0.13"
+        },
+        {
+          "label": "Inpatient kidney consult",
+          "type": "binary",
+          "alert": "0 (0.00%)",
+          "usual": "0 (0.00%)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Duration of AKI (days)",
+          "type": "continuous",
+          "alert": "1.0 (0.6, 2.0)",
+          "usual": "1.0 (0.7, 2.0)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        },
+        {
+          "label": "Length of stay post-randomization (days)",
+          "type": "continuous",
+          "alert": "3.9 (1.3, 10.1)",
+          "usual": "4.1 (1.9, 9.5)",
+          "rr": "\u2014",
+          "p": "\u2014"
+        }
+      ]
+    }
+  },
+  "footnote": "Binary outcomes: counts (percentage), relative risk with 95% CI (log method), p-value from Cochran-Mantel-Haenszel chi-square stratified by hospital. Continuous outcomes: median (IQR); p-values and RRs are not applicable. Hospitalization cost is omitted because it is not included in the deidentified dataset."
+}

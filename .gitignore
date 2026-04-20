@@ -1,0 +1,11 @@
+# Trial data and source paper — download separately from Dryad / publisher.
+files/
+
+# Claude Code / editor state
+.claude/
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.pyc

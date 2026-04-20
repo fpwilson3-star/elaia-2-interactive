@@ -1,0 +1,82 @@
+{
+  "panels": [
+    {
+      "label": "NSAID subgroup",
+      "n_alert": 748,
+      "n_usual": 805,
+      "rows": [
+        {
+          "label": "Opioid prescription",
+          "type": "binary",
+          "alert": "509 (68%)",
+          "usual": "557 (69%)",
+          "diff": "-1.1 (-5.8, +3.5)"
+        },
+        {
+          "label": "Max pain score",
+          "type": "continuous",
+          "alert": "8.0 (5.0, 10.0)",
+          "usual": "8.0 (5.0, 10.0)",
+          "diff": "+0.0 (+0.0, +0.0)"
+        }
+      ]
+    },
+    {
+      "label": "RAASi subgroup",
+      "n_alert": 1350,
+      "n_usual": 1329,
+      "rows": [
+        {
+          "label": "Max systolic BP (mmHg)",
+          "type": "continuous",
+          "alert": "162.0 (145.0, 179.0)",
+          "usual": "161.0 (145.0, 179.0)",
+          "diff": "+1.0 (-2.0, +3.0)"
+        },
+        {
+          "label": "Max diastolic BP (mmHg)",
+          "type": "continuous",
+          "alert": "89.0 (80.2, 99.0)",
+          "usual": "89.0 (81.0, 100.0)",
+          "diff": "+0.0 (-1.0, +1.0)"
+        },
+        {
+          "label": "Mechanical ventilation",
+          "type": "binary",
+          "alert": "181 (13%)",
+          "usual": "177 (13%)",
+          "diff": "+0.1 (-2.5, +2.7)"
+        }
+      ]
+    },
+    {
+      "label": "PPI subgroup",
+      "n_alert": 1654,
+      "n_usual": 1644,
+      "rows": [
+        {
+          "label": "PRBC transfusion",
+          "type": "binary",
+          "alert": "433 (26%)",
+          "usual": "448 (27%)",
+          "diff": "-1.1 (-4.1, +1.9)"
+        },
+        {
+          "label": "Minimum hemoglobin (g/dL)",
+          "type": "continuous",
+          "alert": "8.6 (7.2, 10.5)",
+          "usual": "8.6 (7.2, 10.4)",
+          "diff": "+0.1 (-0.1, +0.2)"
+        },
+        {
+          "label": "Max pain score",
+          "type": "continuous",
+          "alert": "7.0 (4.0, 9.0)",
+          "usual": "7.0 (3.0, 9.0)",
+          "diff": "+0.0 (+0.0, +0.0)"
+        }
+      ]
+    }
+  ],
+  "footnote": "Values are n (%) or median (IQR). Difference column shows the alert-minus-usual-care contrast with 95% CI (Newcombe method for proportions, Hodges-Lehmann estimate with bootstrap CI for medians). Each panel is restricted to patients receiving that MOI at randomization, so no further subgroup filter is applied."
+}

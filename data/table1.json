@@ -1,0 +1,4265 @@
+{
+  "subgroups": {
+    "overall": {
+      "label": "Overall (full cohort)",
+      "group": "Full cohort",
+      "n_alert": 2532,
+      "n_usual": 2528,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "70 (59, 81)",
+              "usual": "70 (59, 80)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "1231 (49%)",
+              "usual": "1222 (48%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "1937 (77%)",
+              "usual": "1924 (76%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "560 (22%)",
+              "usual": "598 (24%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "90 (3.6%)",
+              "usual": "87 (3.4%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "1775 (70%)",
+              "usual": "1746 (69%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "1197 (47%)",
+              "usual": "1250 (49%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "623 (25%)",
+              "usual": "591 (23%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "464 (18%)",
+              "usual": "446 (18%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "248 (9.8%)",
+              "usual": "241 (9.5%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "671 (27%)",
+              "usual": "616 (24%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "827 (33%)",
+              "usual": "784 (31%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "776 (31%)",
+              "usual": "762 (30%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "967 (38%)",
+              "usual": "928 (37%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "1710 (68%)",
+              "usual": "1726 (68%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "549 (22%)",
+              "usual": "563 (22%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "310 (12%)",
+              "usual": "359 (14%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "4 (0.16%)",
+              "usual": "2 (0.08%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "2279 (90%)",
+              "usual": "2248 (89%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "191 (7.5%)",
+              "usual": "230 (9.1%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "56 (2.2%)",
+              "usual": "47 (1.9%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "60 (38, 86)",
+              "usual": "61 (39, 88)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.5 (1.1, 2.0)",
+              "usual": "1.5 (1.1, 2.0)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.1 (0.8, 1.6)",
+              "usual": "1.1 (0.8, 1.6)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 141)",
+              "usual": "138 (135, 141)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.8, 4.6)",
+              "usual": "4.2 (3.8, 4.6)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (99, 106)",
+              "usual": "102 (99, 106)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "23 (21, 26)",
+              "usual": "23 (20, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "12 (10, 14)",
+              "usual": "12 (10, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "29 (20, 42)",
+              "usual": "29 (19, 42)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.5 (6.8, 13.5)",
+              "usual": "9.6 (6.7, 13.6)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.6 (8.8, 12.5)",
+              "usual": "10.6 (8.9, 12.4)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "213 (153, 287)",
+              "usual": "214 (149, 288)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 4)",
+              "usual": "2 (1, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "621 (25%)",
+              "usual": "662 (26%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "1350 (53%)",
+              "usual": "1329 (53%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "748 (30%)",
+              "usual": "805 (32%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "1654 (65%)",
+              "usual": "1644 (65%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "1470 (58%)",
+              "usual": "1451 (57%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "904 (36%)",
+              "usual": "904 (36%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "158 (6.2%)",
+              "usual": "173 (6.8%)"
+            }
+          ]
+        }
+      ]
+    },
+    "nsaid": {
+      "label": "NSAID-exposed",
+      "group": "MOI exposure",
+      "n_alert": 748,
+      "n_usual": 805,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "62 (50, 73)",
+              "usual": "63 (53, 74)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "397 (53%)",
+              "usual": "442 (55%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "516 (69%)",
+              "usual": "573 (71%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "151 (20%)",
+              "usual": "172 (21%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "36 (4.8%)",
+              "usual": "28 (3.5%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "535 (72%)",
+              "usual": "573 (71%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "344 (46%)",
+              "usual": "399 (50%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "187 (25%)",
+              "usual": "208 (26%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "141 (19%)",
+              "usual": "141 (18%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "76 (10%)",
+              "usual": "57 (7.1%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "111 (15%)",
+              "usual": "115 (14%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "170 (23%)",
+              "usual": "181 (22%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "232 (31%)",
+              "usual": "253 (31%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "247 (33%)",
+              "usual": "260 (32%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "456 (61%)",
+              "usual": "513 (64%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "142 (19%)",
+              "usual": "204 (25%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "94 (13%)",
+              "usual": "115 (14%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "2 (0.27%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "651 (87%)",
+              "usual": "680 (84%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "72 (9.6%)",
+              "usual": "104 (13%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "23 (3.1%)",
+              "usual": "21 (2.6%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "79 (53, 100)",
+              "usual": "79 (53, 100)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.3 (1.0, 1.6)",
+              "usual": "1.3 (1.0, 1.6)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "0.9 (0.7, 1.3)",
+              "usual": "0.9 (0.7, 1.3)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "137 (134, 140)",
+              "usual": "138 (135, 140)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.8, 4.5)",
+              "usual": "4.1 (3.7, 4.5)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (99, 106)",
+              "usual": "102 (99, 106)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "23 (21, 26)",
+              "usual": "23 (21, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "11 (9, 13)",
+              "usual": "11 (10, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "23 (16, 35)",
+              "usual": "24 (16, 35)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "10.0 (7.1, 14.0)",
+              "usual": "9.7 (6.7, 14.0)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.7 (9.0, 12.5)",
+              "usual": "10.8 (9.1, 12.5)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "220 (165, 298)",
+              "usual": "228 (155, 304)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 3)",
+              "usual": "2 (1, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "198 (26%)",
+              "usual": "206 (26%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "320 (43%)",
+              "usual": "369 (46%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "748 (100%)",
+              "usual": "805 (100%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "429 (57%)",
+              "usual": "459 (57%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "157 (21%)",
+              "usual": "150 (19%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "433 (58%)",
+              "usual": "482 (60%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "158 (21%)",
+              "usual": "173 (21%)"
+            }
+          ]
+        }
+      ]
+    },
+    "raasi": {
+      "label": "RAASi-exposed",
+      "group": "MOI exposure",
+      "n_alert": 1350,
+      "n_usual": 1329,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "72 (62, 82)",
+              "usual": "73 (62, 81)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "637 (47%)",
+              "usual": "658 (50%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "1021 (76%)",
+              "usual": "1023 (77%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "244 (18%)",
+              "usual": "235 (18%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "49 (3.6%)",
+              "usual": "56 (4.2%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "1013 (75%)",
+              "usual": "1002 (75%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "609 (45%)",
+              "usual": "577 (43%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "362 (27%)",
+              "usual": "369 (28%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "247 (18%)",
+              "usual": "243 (18%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "132 (9.8%)",
+              "usual": "140 (11%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "385 (29%)",
+              "usual": "359 (27%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "496 (37%)",
+              "usual": "471 (35%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "420 (31%)",
+              "usual": "417 (31%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "622 (46%)",
+              "usual": "600 (45%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "1048 (78%)",
+              "usual": "1067 (80%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "249 (18%)",
+              "usual": "266 (20%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "110 (8.1%)",
+              "usual": "120 (9.0%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "2 (0.15%)",
+              "usual": "2 (0.15%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "1239 (92%)",
+              "usual": "1191 (90%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "90 (6.7%)",
+              "usual": "113 (8.5%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "17 (1.3%)",
+              "usual": "23 (1.7%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "58 (39, 81)",
+              "usual": "57 (38, 80)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.5 (1.2, 1.9)",
+              "usual": "1.5 (1.2, 2.0)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.2 (0.9, 1.6)",
+              "usual": "1.2 (0.9, 1.6)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 140)",
+              "usual": "138 (135, 140)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.9, 4.6)",
+              "usual": "4.2 (3.8, 4.6)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (99, 105)",
+              "usual": "102 (99, 105)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "24 (21, 26)",
+              "usual": "24 (21, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "12 (10, 14)",
+              "usual": "12 (10, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "30 (22, 42)",
+              "usual": "30 (22, 42)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.2 (6.9, 12.7)",
+              "usual": "9.3 (6.5, 12.7)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "11.1 (9.5, 12.9)",
+              "usual": "11.1 (9.5, 12.8)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "222 (168, 291)",
+              "usual": "225 (168, 290)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 3)",
+              "usual": "2 (1, 3)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "307 (23%)",
+              "usual": "326 (25%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "1350 (100%)",
+              "usual": "1329 (100%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "320 (24%)",
+              "usual": "369 (28%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "629 (47%)",
+              "usual": "595 (45%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "559 (41%)",
+              "usual": "538 (40%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "633 (47%)",
+              "usual": "618 (47%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "158 (12%)",
+              "usual": "173 (13%)"
+            }
+          ]
+        }
+      ]
+    },
+    "ppi": {
+      "label": "PPI-exposed",
+      "group": "MOI exposure",
+      "n_alert": 1654,
+      "n_usual": 1644,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "71 (59, 81)",
+              "usual": "70 (59, 80)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "809 (49%)",
+              "usual": "766 (47%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "1284 (78%)",
+              "usual": "1284 (78%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "435 (26%)",
+              "usual": "473 (29%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "58 (3.5%)",
+              "usual": "48 (2.9%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "1078 (65%)",
+              "usual": "1051 (64%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "793 (48%)",
+              "usual": "868 (53%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "374 (23%)",
+              "usual": "336 (20%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "323 (20%)",
+              "usual": "300 (18%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "164 (9.9%)",
+              "usual": "140 (8.5%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "457 (28%)",
+              "usual": "423 (26%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "563 (34%)",
+              "usual": "541 (33%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "553 (33%)",
+              "usual": "518 (32%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "618 (37%)",
+              "usual": "579 (35%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "1093 (66%)",
+              "usual": "1101 (67%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "409 (25%)",
+              "usual": "402 (24%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "250 (15%)",
+              "usual": "292 (18%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "3 (0.18%)",
+              "usual": "1 (0.06%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "1486 (90%)",
+              "usual": "1456 (89%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "124 (7.5%)",
+              "usual": "153 (9.3%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "40 (2.4%)",
+              "usual": "33 (2.0%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "56 (36, 85)",
+              "usual": "59 (37, 88)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.5 (1.2, 2.0)",
+              "usual": "1.5 (1.1, 2.0)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.2 (0.9, 1.7)",
+              "usual": "1.2 (0.8, 1.7)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 141)",
+              "usual": "138 (135, 141)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.8, 4.6)",
+              "usual": "4.2 (3.8, 4.6)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (98, 106)",
+              "usual": "102 (99, 107)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "23 (20, 26)",
+              "usual": "23 (20, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "12 (10, 14)",
+              "usual": "12 (10, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "30 (20, 44)",
+              "usual": "30 (20, 43)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.7 (6.6, 14.0)",
+              "usual": "9.8 (6.6, 14.3)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.1 (8.5, 12.1)",
+              "usual": "10.1 (8.5, 12.0)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "206 (141, 286)",
+              "usual": "206 (134, 284)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "3 (1, 4)",
+              "usual": "3 (2, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "432 (26%)",
+              "usual": "460 (28%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "629 (38%)",
+              "usual": "595 (36%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "429 (26%)",
+              "usual": "459 (28%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "1654 (100%)",
+              "usual": "1644 (100%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "754 (46%)",
+              "usual": "763 (46%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "742 (45%)",
+              "usual": "708 (43%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "158 (9.6%)",
+              "usual": "173 (11%)"
+            }
+          ]
+        }
+      ]
+    },
+    "non_icu": {
+      "label": "Non-ICU at randomization",
+      "group": "ICU status",
+      "n_alert": 1972,
+      "n_usual": 1930,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "71 (59, 81)",
+              "usual": "71 (59, 81)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "980 (50%)",
+              "usual": "969 (50%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "1574 (80%)",
+              "usual": "1523 (79%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "90 (4.6%)",
+              "usual": "87 (4.5%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "1775 (90%)",
+              "usual": "1746 (90%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "894 (45%)",
+              "usual": "932 (48%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "545 (28%)",
+              "usual": "520 (27%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "332 (17%)",
+              "usual": "293 (15%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "201 (10%)",
+              "usual": "185 (9.6%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "548 (28%)",
+              "usual": "520 (27%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "656 (33%)",
+              "usual": "620 (32%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "598 (30%)",
+              "usual": "612 (32%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "767 (39%)",
+              "usual": "740 (38%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "1368 (69%)",
+              "usual": "1376 (71%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "438 (22%)",
+              "usual": "453 (23%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "241 (12%)",
+              "usual": "269 (14%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "4 (0.20%)",
+              "usual": "1 (0.05%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "1786 (91%)",
+              "usual": "1737 (90%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "136 (6.9%)",
+              "usual": "163 (8.4%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "44 (2.2%)",
+              "usual": "28 (1.5%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "60 (38, 86)",
+              "usual": "60 (39, 88)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.5 (1.2, 2.0)",
+              "usual": "1.5 (1.1, 1.9)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.1 (0.8, 1.6)",
+              "usual": "1.1 (0.8, 1.6)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 140)",
+              "usual": "138 (135, 140)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.8, 4.5)",
+              "usual": "4.1 (3.8, 4.6)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (99, 106)",
+              "usual": "102 (99, 106)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "24 (21, 26)",
+              "usual": "24 (21, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "11 (9, 14)",
+              "usual": "12 (9, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "29 (19, 41)",
+              "usual": "28 (19, 41)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.0 (6.4, 12.3)",
+              "usual": "8.8 (6.3, 12.4)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.7 (9.0, 12.6)",
+              "usual": "10.6 (9.0, 12.4)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "218 (159, 292)",
+              "usual": "219 (158, 290)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 3)",
+              "usual": "2 (1, 3)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "435 (22%)",
+              "usual": "452 (23%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "1106 (56%)",
+              "usual": "1094 (57%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "597 (30%)",
+              "usual": "633 (33%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "1219 (62%)",
+              "usual": "1171 (61%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "1149 (58%)",
+              "usual": "1107 (57%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "696 (35%)",
+              "usual": "678 (35%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "127 (6.4%)",
+              "usual": "145 (7.5%)"
+            }
+          ]
+        }
+      ]
+    },
+    "icu": {
+      "label": "ICU at randomization",
+      "group": "ICU status",
+      "n_alert": 560,
+      "n_usual": 598,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "68 (58, 78)",
+              "usual": "68 (57, 78)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "251 (45%)",
+              "usual": "253 (42%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "363 (65%)",
+              "usual": "401 (67%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "560 (100%)",
+              "usual": "598 (100%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "303 (54%)",
+              "usual": "318 (53%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "78 (14%)",
+              "usual": "71 (12%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "132 (24%)",
+              "usual": "153 (26%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "47 (8.4%)",
+              "usual": "56 (9.4%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "123 (22%)",
+              "usual": "96 (16%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "171 (31%)",
+              "usual": "164 (27%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "178 (32%)",
+              "usual": "150 (25%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "200 (36%)",
+              "usual": "188 (31%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "342 (61%)",
+              "usual": "350 (59%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "111 (20%)",
+              "usual": "110 (18%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "69 (12%)",
+              "usual": "90 (15%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "1 (0.17%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "493 (88%)",
+              "usual": "511 (85%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "55 (9.8%)",
+              "usual": "67 (11%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "12 (2.1%)",
+              "usual": "19 (3.2%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "61 (40, 87)",
+              "usual": "63 (39, 90)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.5 (1.1, 2.0)",
+              "usual": "1.4 (1.1, 2.0)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.2 (0.8, 1.6)",
+              "usual": "1.2 (0.8, 1.7)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "139 (135, 142)",
+              "usual": "139 (136, 143)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.3 (3.9, 4.7)",
+              "usual": "4.2 (3.8, 4.7)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "103 (99, 107)",
+              "usual": "104 (100, 108)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "23 (19, 26)",
+              "usual": "22 (19, 25)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "13 (10, 15)",
+              "usual": "12 (10, 15)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "30 (21, 45)",
+              "usual": "31 (21, 46)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "12.6 (8.7, 17.9)",
+              "usual": "12.7 (8.8, 17.6)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.2 (8.4, 12.1)",
+              "usual": "10.3 (8.5, 12.4)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "189 (128, 274)",
+              "usual": "196 (125, 281)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "4 (2, 5)",
+              "usual": "4 (3, 5)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "186 (33%)",
+              "usual": "210 (35%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "244 (44%)",
+              "usual": "235 (39%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "151 (27%)",
+              "usual": "172 (29%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "435 (78%)",
+              "usual": "473 (79%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "321 (57%)",
+              "usual": "344 (58%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "208 (37%)",
+              "usual": "226 (38%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "31 (5.5%)",
+              "usual": "28 (4.7%)"
+            }
+          ]
+        }
+      ]
+    },
+    "surgical": {
+      "label": "Surgical admission",
+      "group": "Admitting service",
+      "n_alert": 595,
+      "n_usual": 604,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "68 (58, 78)",
+              "usual": "69 (58, 78)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "282 (47%)",
+              "usual": "283 (47%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "197 (33%)",
+              "usual": "197 (33%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "21 (3.5%)",
+              "usual": "18 (3.0%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "370 (62%)",
+              "usual": "386 (64%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "312 (52%)",
+              "usual": "322 (53%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "114 (19%)",
+              "usual": "117 (19%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "117 (20%)",
+              "usual": "109 (18%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "52 (8.7%)",
+              "usual": "56 (9.3%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "116 (19%)",
+              "usual": "129 (21%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "139 (23%)",
+              "usual": "140 (23%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "178 (30%)",
+              "usual": "137 (23%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "207 (35%)",
+              "usual": "206 (34%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "377 (63%)",
+              "usual": "395 (65%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "152 (26%)",
+              "usual": "141 (23%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "53 (8.9%)",
+              "usual": "45 (7.5%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "1 (0.17%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "527 (89%)",
+              "usual": "539 (89%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "49 (8.2%)",
+              "usual": "54 (8.9%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "18 (3.0%)",
+              "usual": "10 (1.7%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "69 (45, 93)",
+              "usual": "68 (45, 92)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.4 (1.1, 1.9)",
+              "usual": "1.4 (1.1, 1.8)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.0 (0.8, 1.4)",
+              "usual": "1.1 (0.8, 1.4)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 141)",
+              "usual": "138 (136, 141)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.9, 4.6)",
+              "usual": "4.3 (3.9, 4.6)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "103 (100, 106)",
+              "usual": "103 (100, 107)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "23 (21, 26)",
+              "usual": "23 (21, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "11 (10, 13)",
+              "usual": "11 (9, 13)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "26 (18, 38)",
+              "usual": "27 (18, 40)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "11.0 (7.8, 14.5)",
+              "usual": "10.9 (7.7, 14.9)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.6 (8.9, 12.5)",
+              "usual": "10.5 (8.9, 12.2)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "220 (161, 298)",
+              "usual": "216 (153, 295)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 3)",
+              "usual": "3 (1, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "174 (29%)",
+              "usual": "182 (30%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "329 (55%)",
+              "usual": "306 (51%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "232 (39%)",
+              "usual": "232 (38%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "370 (62%)",
+              "usual": "360 (60%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "312 (52%)",
+              "usual": "349 (58%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "230 (39%)",
+              "usual": "216 (36%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "53 (8.9%)",
+              "usual": "39 (6.5%)"
+            }
+          ]
+        }
+      ]
+    },
+    "medical": {
+      "label": "Medical admission",
+      "group": "Admitting service",
+      "n_alert": 1937,
+      "n_usual": 1924,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "71 (59, 81)",
+              "usual": "70 (59, 80)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "949 (49%)",
+              "usual": "939 (49%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "1937 (100%)",
+              "usual": "1924 (100%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "363 (19%)",
+              "usual": "401 (21%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "69 (3.6%)",
+              "usual": "69 (3.6%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "1405 (73%)",
+              "usual": "1360 (71%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "885 (46%)",
+              "usual": "928 (48%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "509 (26%)",
+              "usual": "474 (25%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "347 (18%)",
+              "usual": "337 (18%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "196 (10%)",
+              "usual": "185 (9.6%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "555 (29%)",
+              "usual": "487 (25%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "688 (36%)",
+              "usual": "644 (33%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "598 (31%)",
+              "usual": "625 (32%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "760 (39%)",
+              "usual": "722 (38%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "1333 (69%)",
+              "usual": "1331 (69%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "397 (20%)",
+              "usual": "422 (22%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "257 (13%)",
+              "usual": "314 (16%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "4 (0.21%)",
+              "usual": "1 (0.05%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "1752 (90%)",
+              "usual": "1709 (89%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "142 (7.3%)",
+              "usual": "176 (9.1%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "38 (2.0%)",
+              "usual": "37 (1.9%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "57 (36, 84)",
+              "usual": "58 (37, 86)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.5 (1.2, 2.0)",
+              "usual": "1.5 (1.2, 2.0)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.2 (0.9, 1.7)",
+              "usual": "1.2 (0.8, 1.7)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 141)",
+              "usual": "138 (135, 141)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.8, 4.5)",
+              "usual": "4.1 (3.8, 4.6)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (98, 106)",
+              "usual": "102 (98, 106)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "23 (20, 26)",
+              "usual": "23 (20, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "12 (10, 14)",
+              "usual": "12 (10, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "30 (20, 43)",
+              "usual": "30 (20, 43)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.2 (6.5, 12.9)",
+              "usual": "9.3 (6.4, 13.2)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.6 (8.8, 12.5)",
+              "usual": "10.6 (8.8, 12.4)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "210 (151, 282)",
+              "usual": "213 (146, 286)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 4)",
+              "usual": "2 (1, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "447 (23%)",
+              "usual": "480 (25%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "1021 (53%)",
+              "usual": "1023 (53%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "516 (27%)",
+              "usual": "573 (30%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "1284 (66%)",
+              "usual": "1284 (67%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "1158 (60%)",
+              "usual": "1102 (57%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "674 (35%)",
+              "usual": "688 (36%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "105 (5.4%)",
+              "usual": "134 (7.0%)"
+            }
+          ]
+        }
+      ]
+    },
+    "creat_low": {
+      "label": "Baseline creatinine \u2264 0.80 mg/dL",
+      "group": "Baseline creatinine tertile",
+      "n_alert": 891,
+      "n_usual": 912,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "66 (54, 77)",
+              "usual": "65 (54, 76)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "505 (57%)",
+              "usual": "567 (62%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "653 (73%)",
+              "usual": "668 (73%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "213 (24%)",
+              "usual": "233 (26%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "28 (3.1%)",
+              "usual": "21 (2.3%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "605 (68%)",
+              "usual": "618 (68%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "426 (48%)",
+              "usual": "448 (49%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "215 (24%)",
+              "usual": "228 (25%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "134 (15%)",
+              "usual": "131 (14%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "116 (13%)",
+              "usual": "105 (12%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "53 (5.9%)",
+              "usual": "45 (4.9%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "177 (20%)",
+              "usual": "156 (17%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "241 (27%)",
+              "usual": "274 (30%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "254 (29%)",
+              "usual": "231 (25%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "479 (54%)",
+              "usual": "508 (56%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "175 (20%)",
+              "usual": "190 (21%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "105 (12%)",
+              "usual": "128 (14%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "3 (0.34%)",
+              "usual": "1 (0.11%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "705 (79%)",
+              "usual": "711 (78%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "138 (15%)",
+              "usual": "164 (18%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "45 (5.1%)",
+              "usual": "35 (3.8%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "93 (76, 106)",
+              "usual": "93 (76, 107)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.0 (0.9, 1.2)",
+              "usual": "1.1 (0.9, 1.2)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "0.8 (0.6, 0.9)",
+              "usual": "0.8 (0.6, 0.9)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (134, 141)",
+              "usual": "138 (135, 141)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.1 (3.8, 4.5)",
+              "usual": "4.1 (3.7, 4.4)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (98, 106)",
+              "usual": "102 (99, 106)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "24 (22, 27)",
+              "usual": "24 (21, 27)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "11 (9, 13)",
+              "usual": "11 (9, 13)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "21 (14, 29)",
+              "usual": "20 (14, 29)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "10.1 (7.0, 14.3)",
+              "usual": "9.9 (6.6, 14.5)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.8 (9.0, 12.7)",
+              "usual": "10.9 (9.1, 12.5)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "230 (165, 316)",
+              "usual": "233 (160, 307)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (0, 3)",
+              "usual": "2 (0, 3)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "245 (27%)",
+              "usual": "248 (27%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "406 (46%)",
+              "usual": "418 (46%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "376 (42%)",
+              "usual": "419 (46%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "566 (64%)",
+              "usual": "575 (63%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "498 (56%)",
+              "usual": "488 (54%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "329 (37%)",
+              "usual": "348 (38%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "64 (7.2%)",
+              "usual": "76 (8.3%)"
+            }
+          ]
+        }
+      ]
+    },
+    "creat_mid": {
+      "label": "Baseline creatinine 0.80\u20131.20 mg/dL",
+      "group": "Baseline creatinine tertile",
+      "n_alert": 795,
+      "n_usual": 801,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "71 (61, 81)",
+              "usual": "71 (61, 80)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "371 (47%)",
+              "usual": "351 (44%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "602 (76%)",
+              "usual": "600 (75%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "161 (20%)",
+              "usual": "179 (22%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "32 (4.0%)",
+              "usual": "35 (4.4%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "568 (71%)",
+              "usual": "557 (70%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "374 (47%)",
+              "usual": "408 (51%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "197 (25%)",
+              "usual": "174 (22%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "153 (19%)",
+              "usual": "158 (20%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "71 (8.9%)",
+              "usual": "61 (7.6%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "159 (20%)",
+              "usual": "149 (19%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "264 (33%)",
+              "usual": "263 (33%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "253 (32%)",
+              "usual": "246 (31%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "282 (35%)",
+              "usual": "309 (39%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "570 (72%)",
+              "usual": "581 (73%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "177 (22%)",
+              "usual": "179 (22%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "95 (12%)",
+              "usual": "106 (13%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "1 (0.12%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "740 (93%)",
+              "usual": "741 (93%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "43 (5.4%)",
+              "usual": "49 (6.1%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "10 (1.3%)",
+              "usual": "10 (1.2%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "62 (50, 76)",
+              "usual": "62 (48, 76)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.4 (1.3, 1.6)",
+              "usual": "1.4 (1.3, 1.6)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.1 (1.0, 1.3)",
+              "usual": "1.1 (1.0, 1.3)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 141)",
+              "usual": "138 (135, 141)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.9, 4.5)",
+              "usual": "4.1 (3.7, 4.6)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (98, 105)",
+              "usual": "102 (99, 106)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "24 (21, 27)",
+              "usual": "23 (21, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "12 (10, 14)",
+              "usual": "12 (10, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "28 (21, 39)",
+              "usual": "29 (21, 38)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.4 (7.0, 13.0)",
+              "usual": "9.6 (6.8, 13.4)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "11.0 (9.1, 12.9)",
+              "usual": "10.8 (9.1, 12.8)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "210 (156, 279)",
+              "usual": "212 (150, 287)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 3)",
+              "usual": "3 (1, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "221 (28%)",
+              "usual": "227 (28%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "474 (60%)",
+              "usual": "468 (58%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "236 (30%)",
+              "usual": "254 (32%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "501 (63%)",
+              "usual": "503 (63%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "438 (55%)",
+              "usual": "439 (55%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "298 (37%)",
+              "usual": "300 (37%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "59 (7.4%)",
+              "usual": "62 (7.7%)"
+            }
+          ]
+        }
+      ]
+    },
+    "creat_high": {
+      "label": "Baseline creatinine > 1.20 mg/dL",
+      "group": "Baseline creatinine tertile",
+      "n_alert": 846,
+      "n_usual": 815,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "74 (63, 82)",
+              "usual": "74 (63, 83)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "355 (42%)",
+              "usual": "304 (37%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "682 (81%)",
+              "usual": "656 (80%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "186 (22%)",
+              "usual": "186 (23%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "30 (3.5%)",
+              "usual": "31 (3.8%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "602 (71%)",
+              "usual": "571 (70%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "397 (47%)",
+              "usual": "394 (48%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "211 (25%)",
+              "usual": "189 (23%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "177 (21%)",
+              "usual": "157 (19%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "61 (7.2%)",
+              "usual": "75 (9.2%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "459 (54%)",
+              "usual": "422 (52%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "386 (46%)",
+              "usual": "365 (45%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "282 (33%)",
+              "usual": "242 (30%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "431 (51%)",
+              "usual": "388 (48%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "661 (78%)",
+              "usual": "637 (78%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "197 (23%)",
+              "usual": "194 (24%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "110 (13%)",
+              "usual": "125 (15%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "1 (0.12%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "834 (99%)",
+              "usual": "796 (98%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "10 (1.2%)",
+              "usual": "17 (2.1%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "1 (0.12%)",
+              "usual": "2 (0.25%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "33 (25, 43)",
+              "usual": "33 (25, 44)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "2.1 (1.8, 2.7)",
+              "usual": "2.2 (1.9, 2.7)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.9 (1.5, 2.4)",
+              "usual": "1.8 (1.5, 2.4)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 141)",
+              "usual": "138 (135, 141)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.3 (3.9, 4.7)",
+              "usual": "4.4 (3.9, 4.8)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "103 (99, 107)",
+              "usual": "103 (99, 107)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "22 (19, 25)",
+              "usual": "22 (19, 25)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "12 (10, 14)",
+              "usual": "12 (10, 15)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "42 (32, 56)",
+              "usual": "42 (31, 57)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.2 (6.5, 13.0)",
+              "usual": "9.3 (6.5, 12.9)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.2 (8.6, 11.9)",
+              "usual": "10.1 (8.6, 11.7)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "202 (141, 268)",
+              "usual": "197 (134, 266)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "3 (2, 4)",
+              "usual": "3 (2, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "155 (18%)",
+              "usual": "187 (23%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "470 (56%)",
+              "usual": "443 (54%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "136 (16%)",
+              "usual": "132 (16%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "587 (69%)",
+              "usual": "566 (69%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "534 (63%)",
+              "usual": "524 (64%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "277 (33%)",
+              "usual": "256 (31%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "35 (4.1%)",
+              "usual": "35 (4.3%)"
+            }
+          ]
+        }
+      ]
+    },
+    "hosp_1": {
+      "label": "Hospital 1",
+      "group": "Study hospital",
+      "n_alert": 1197,
+      "n_usual": 1250,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "67 (57, 77)",
+              "usual": "67 (57, 77)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "539 (45%)",
+              "usual": "563 (45%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "885 (74%)",
+              "usual": "928 (74%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "303 (25%)",
+              "usual": "318 (25%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "53 (4.4%)",
+              "usual": "52 (4.2%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "774 (65%)",
+              "usual": "811 (65%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "1197 (100%)",
+              "usual": "1250 (100%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "305 (25%)",
+              "usual": "275 (22%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "383 (32%)",
+              "usual": "335 (27%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "333 (28%)",
+              "usual": "340 (27%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "413 (35%)",
+              "usual": "424 (34%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "749 (63%)",
+              "usual": "787 (63%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "306 (26%)",
+              "usual": "330 (26%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "176 (15%)",
+              "usual": "207 (17%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "3 (0.25%)",
+              "usual": "2 (0.16%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "1081 (90%)",
+              "usual": "1103 (88%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "85 (7.1%)",
+              "usual": "119 (9.5%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "27 (2.3%)",
+              "usual": "25 (2.0%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "63 (40, 91)",
+              "usual": "64 (41, 91)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.5 (1.1, 2.0)",
+              "usual": "1.4 (1.1, 1.9)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.1 (0.8, 1.6)",
+              "usual": "1.1 (0.8, 1.6)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "138 (135, 141)",
+              "usual": "138 (135, 141)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.9, 4.5)",
+              "usual": "4.2 (3.8, 4.5)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (99, 106)",
+              "usual": "103 (99, 106)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "23 (20, 25)",
+              "usual": "23 (20, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "12 (10, 14)",
+              "usual": "12 (10, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "28 (19, 41)",
+              "usual": "28 (18, 40)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.7 (6.7, 13.7)",
+              "usual": "9.9 (6.7, 14.2)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.4 (8.6, 12.3)",
+              "usual": "10.2 (8.5, 12.1)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "208 (146, 281)",
+              "usual": "211 (135, 292)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "3 (1, 4)",
+              "usual": "3 (2, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "319 (27%)",
+              "usual": "343 (27%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "609 (51%)",
+              "usual": "577 (46%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "344 (29%)",
+              "usual": "399 (32%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "793 (66%)",
+              "usual": "868 (69%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "715 (60%)",
+              "usual": "737 (59%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "415 (35%)",
+              "usual": "432 (35%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "67 (5.6%)",
+              "usual": "81 (6.5%)"
+            }
+          ]
+        }
+      ]
+    },
+    "hosp_2": {
+      "label": "Hospital 2",
+      "group": "Study hospital",
+      "n_alert": 623,
+      "n_usual": 591,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "72 (60, 82)",
+              "usual": "73 (61, 81)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "327 (52%)",
+              "usual": "310 (52%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "509 (82%)",
+              "usual": "474 (80%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "78 (13%)",
+              "usual": "71 (12%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "11 (1.8%)",
+              "usual": "10 (1.7%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "494 (79%)",
+              "usual": "482 (82%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "623 (100%)",
+              "usual": "591 (100%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "193 (31%)",
+              "usual": "181 (31%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "213 (34%)",
+              "usual": "231 (39%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "231 (37%)",
+              "usual": "240 (41%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "276 (44%)",
+              "usual": "253 (43%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "472 (76%)",
+              "usual": "457 (77%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "105 (17%)",
+              "usual": "107 (18%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "68 (11%)",
+              "usual": "76 (13%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "571 (92%)",
+              "usual": "531 (90%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "44 (7.1%)",
+              "usual": "51 (8.6%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "8 (1.3%)",
+              "usual": "9 (1.5%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "57 (37, 84)",
+              "usual": "58 (38, 86)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.4 (1.1, 2.0)",
+              "usual": "1.4 (1.1, 1.9)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.2 (0.9, 1.7)",
+              "usual": "1.1 (0.8, 1.7)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "137 (134, 140)",
+              "usual": "137 (135, 140)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.1 (3.8, 4.5)",
+              "usual": "4.1 (3.7, 4.5)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "101 (98, 105)",
+              "usual": "102 (99, 105)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "23 (21, 26)",
+              "usual": "23 (20, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "12 (10, 14)",
+              "usual": "12 (10, 14)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "28 (19, 43)",
+              "usual": "29 (20, 41)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.0 (6.8, 12.5)",
+              "usual": "8.8 (6.3, 12.4)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "11.0 (9.3, 12.7)",
+              "usual": "11.0 (9.4, 12.7)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "219 (163, 289)",
+              "usual": "212 (158, 278)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 3)",
+              "usual": "2 (1, 3)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "129 (21%)",
+              "usual": "130 (22%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "362 (58%)",
+              "usual": "369 (62%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "187 (30%)",
+              "usual": "208 (35%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "374 (60%)",
+              "usual": "336 (57%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "363 (58%)",
+              "usual": "315 (53%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "220 (35%)",
+              "usual": "230 (39%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "40 (6.4%)",
+              "usual": "46 (7.8%)"
+            }
+          ]
+        }
+      ]
+    },
+    "hosp_3": {
+      "label": "Hospital 3",
+      "group": "Study hospital",
+      "n_alert": 464,
+      "n_usual": 446,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "73 (61, 83)",
+              "usual": "71 (58, 81)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "232 (50%)",
+              "usual": "217 (49%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "347 (75%)",
+              "usual": "337 (76%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "132 (28%)",
+              "usual": "153 (34%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "23 (5.0%)",
+              "usual": "23 (5.2%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "309 (67%)",
+              "usual": "270 (61%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "464 (100%)",
+              "usual": "446 (100%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "132 (28%)",
+              "usual": "117 (26%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "166 (36%)",
+              "usual": "140 (31%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "161 (35%)",
+              "usual": "130 (29%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "208 (45%)",
+              "usual": "192 (43%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "347 (75%)",
+              "usual": "330 (74%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "81 (17%)",
+              "usual": "77 (17%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "55 (12%)",
+              "usual": "68 (15%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "414 (89%)",
+              "usual": "401 (90%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "42 (9.1%)",
+              "usual": "34 (7.6%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "7 (1.5%)",
+              "usual": "11 (2.5%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "56 (35, 81)",
+              "usual": "57 (37, 82)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.6 (1.2, 2.1)",
+              "usual": "1.6 (1.2, 2.0)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.2 (0.9, 1.8)",
+              "usual": "1.2 (0.9, 1.7)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "137 (134, 140)",
+              "usual": "138 (135, 140)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.2 (3.8, 4.6)",
+              "usual": "4.2 (3.8, 4.8)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "102 (98, 106)",
+              "usual": "102 (99, 106)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "24 (21, 26)",
+              "usual": "23 (21, 26)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "11 (9, 13)",
+              "usual": "11 (9, 13)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "32 (22, 44)",
+              "usual": "33 (22, 45)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "10.1 (7.1, 14.5)",
+              "usual": "10.4 (6.9, 14.5)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.9 (8.9, 12.7)",
+              "usual": "10.7 (8.9, 12.5)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "218 (155, 292)",
+              "usual": "214 (151, 285)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 4)",
+              "usual": "3 (1, 4)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "118 (25%)",
+              "usual": "136 (30%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "247 (53%)",
+              "usual": "243 (54%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "141 (30%)",
+              "usual": "141 (32%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "323 (70%)",
+              "usual": "300 (67%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "254 (55%)",
+              "usual": "239 (54%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "173 (37%)",
+              "usual": "176 (39%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "37 (8.0%)",
+              "usual": "31 (7.0%)"
+            }
+          ]
+        }
+      ]
+    },
+    "hosp_4": {
+      "label": "Hospital 4",
+      "group": "Study hospital",
+      "n_alert": 248,
+      "n_usual": 241,
+      "sections": [
+        {
+          "title": "Demographics",
+          "rows": [
+            {
+              "label": "Age (years)",
+              "type": "continuous",
+              "alert": "78 (66, 87)",
+              "usual": "79 (68, 88)"
+            },
+            {
+              "label": "Female sex",
+              "type": "categorical",
+              "alert": "133 (54%)",
+              "usual": "132 (55%)"
+            }
+          ]
+        },
+        {
+          "title": "Hospital location",
+          "rows": [
+            {
+              "label": "Medical admission",
+              "type": "categorical",
+              "alert": "196 (79%)",
+              "usual": "185 (77%)"
+            },
+            {
+              "label": "Patient in the ICU",
+              "type": "categorical",
+              "alert": "47 (19%)",
+              "usual": "56 (23%)"
+            },
+            {
+              "label": "Patient in the emergency department",
+              "type": "categorical",
+              "alert": "3 (1.2%)",
+              "usual": "2 (0.83%)"
+            },
+            {
+              "label": "Patient in the ward",
+              "type": "categorical",
+              "alert": "198 (80%)",
+              "usual": "183 (76%)"
+            },
+            {
+              "label": "Hospital 1",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 2",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 3",
+              "type": "categorical",
+              "alert": "0 (0.00%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Hospital 4",
+              "type": "categorical",
+              "alert": "248 (100%)",
+              "usual": "241 (100%)"
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities",
+          "rows": [
+            {
+              "label": "Chronic kidney disease",
+              "type": "categorical",
+              "alert": "41 (17%)",
+              "usual": "43 (18%)"
+            },
+            {
+              "label": "Congestive heart failure",
+              "type": "categorical",
+              "alert": "65 (26%)",
+              "usual": "78 (32%)"
+            },
+            {
+              "label": "COPD",
+              "type": "categorical",
+              "alert": "51 (21%)",
+              "usual": "52 (22%)"
+            },
+            {
+              "label": "Diabetes mellitus",
+              "type": "categorical",
+              "alert": "70 (28%)",
+              "usual": "59 (24%)"
+            },
+            {
+              "label": "Hypertension",
+              "type": "categorical",
+              "alert": "142 (57%)",
+              "usual": "152 (63%)"
+            },
+            {
+              "label": "Malignancy",
+              "type": "categorical",
+              "alert": "57 (23%)",
+              "usual": "49 (20%)"
+            },
+            {
+              "label": "Liver disease",
+              "type": "categorical",
+              "alert": "11 (4.4%)",
+              "usual": "8 (3.3%)"
+            }
+          ]
+        },
+        {
+          "title": "AKI stage at randomization",
+          "rows": [
+            {
+              "label": "Stage 0",
+              "type": "categorical",
+              "alert": "1 (0.40%)",
+              "usual": "0 (0.00%)"
+            },
+            {
+              "label": "Stage 1",
+              "type": "categorical",
+              "alert": "213 (86%)",
+              "usual": "213 (88%)"
+            },
+            {
+              "label": "Stage 2",
+              "type": "categorical",
+              "alert": "20 (8.1%)",
+              "usual": "26 (11%)"
+            },
+            {
+              "label": "Stage 3",
+              "type": "categorical",
+              "alert": "14 (5.6%)",
+              "usual": "2 (0.83%)"
+            }
+          ]
+        },
+        {
+          "title": "Laboratory values",
+          "rows": [
+            {
+              "label": "eGFR on admission (ml/min/1.73m\u00b2)",
+              "type": "continuous",
+              "alert": "62 (41, 84)",
+              "usual": "55 (37, 85)"
+            },
+            {
+              "label": "Creatinine at randomization (mg/dL)",
+              "type": "continuous",
+              "alert": "1.4 (1.0, 1.8)",
+              "usual": "1.4 (1.1, 1.9)"
+            },
+            {
+              "label": "Creatinine at admission (mg/dL)",
+              "type": "continuous",
+              "alert": "1.1 (0.8, 1.5)",
+              "usual": "1.2 (0.8, 1.6)"
+            },
+            {
+              "label": "Sodium (meq/L)",
+              "type": "continuous",
+              "alert": "140 (137, 143)",
+              "usual": "141 (137, 143)"
+            },
+            {
+              "label": "Potassium (meq/L)",
+              "type": "continuous",
+              "alert": "4.3 (3.9, 4.7)",
+              "usual": "4.3 (3.9, 4.7)"
+            },
+            {
+              "label": "Chloride (meq/L)",
+              "type": "continuous",
+              "alert": "106 (102, 109)",
+              "usual": "105 (102, 109)"
+            },
+            {
+              "label": "Bicarbonate (meq/L)",
+              "type": "continuous",
+              "alert": "26 (23, 29)",
+              "usual": "26 (23, 29)"
+            },
+            {
+              "label": "Anion gap (meq/L)",
+              "type": "continuous",
+              "alert": "9 (6, 11)",
+              "usual": "9 (6, 10)"
+            },
+            {
+              "label": "Blood urea nitrogen (mg/dL)",
+              "type": "continuous",
+              "alert": "30 (20, 42)",
+              "usual": "29 (18, 43)"
+            },
+            {
+              "label": "White blood cell count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "9.3 (6.5, 13.4)",
+              "usual": "9.4 (6.9, 13.1)"
+            },
+            {
+              "label": "Hemoglobin (g/dL)",
+              "type": "continuous",
+              "alert": "10.7 (9.0, 12.5)",
+              "usual": "10.9 (9.3, 12.8)"
+            },
+            {
+              "label": "Platelet count (\u00d71000/\u03bcL)",
+              "type": "continuous",
+              "alert": "216 (152, 299)",
+              "usual": "225 (163, 302)"
+            },
+            {
+              "label": "Modified SOFA score",
+              "type": "continuous",
+              "alert": "2 (1, 3)",
+              "usual": "2 (1, 3)"
+            }
+          ]
+        },
+        {
+          "title": "Exposures prior to AKI",
+          "rows": [
+            {
+              "label": "Contrast in prior 72h",
+              "type": "categorical",
+              "alert": "55 (22%)",
+              "usual": "53 (22%)"
+            },
+            {
+              "label": "RAASi",
+              "type": "categorical",
+              "alert": "132 (53%)",
+              "usual": "140 (58%)"
+            },
+            {
+              "label": "NSAID",
+              "type": "categorical",
+              "alert": "76 (31%)",
+              "usual": "57 (24%)"
+            },
+            {
+              "label": "PPI",
+              "type": "categorical",
+              "alert": "164 (66%)",
+              "usual": "140 (58%)"
+            },
+            {
+              "label": "One medication of interest",
+              "type": "categorical",
+              "alert": "138 (56%)",
+              "usual": "160 (66%)"
+            },
+            {
+              "label": "Two medications of interest",
+              "type": "categorical",
+              "alert": "96 (39%)",
+              "usual": "66 (27%)"
+            },
+            {
+              "label": "Three medications of interest",
+              "type": "categorical",
+              "alert": "14 (5.6%)",
+              "usual": "15 (6.2%)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "footnote": "Data are median (interquartile range) or n (%). Race/ethnicity and depression are not shown because they were removed during deidentification of the source dataset."
+}

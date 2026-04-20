@@ -1,0 +1,166 @@
+{
+  "title": "Effect of alert on composite outcome across pre-specified subgroups",
+  "subgroups": [
+    {
+      "name": "ICU at randomization",
+      "interaction_p": 0.8585752645959283,
+      "interaction_method": "alert \u00d7 subgroup interaction (logistic regression adjusted for hospital)",
+      "rows": [
+        {
+          "label": "Non-ICU",
+          "n_alert": 1972,
+          "n_usual": 1930,
+          "events_alert": 342,
+          "events_usual": 366,
+          "p_alert": 0.17342799188640973,
+          "p_usual": 0.18963730569948187,
+          "rr": 0.9192075742199374,
+          "rr_lo": 0.8046238142802207,
+          "rr_hi": 1.0501088204295175
+        },
+        {
+          "label": "ICU",
+          "n_alert": 560,
+          "n_usual": 598,
+          "events_alert": 243,
+          "events_usual": 273,
+          "p_alert": 0.43392857142857144,
+          "p_usual": 0.45652173913043476,
+          "rr": 0.9604868119923975,
+          "rr_lo": 0.8446962860129145,
+          "rr_hi": 1.0921498428338237
+        }
+      ]
+    },
+    {
+      "name": "Admitting service",
+      "interaction_p": 0.953860452193511,
+      "interaction_method": "alert \u00d7 subgroup interaction (logistic regression adjusted for hospital)",
+      "rows": [
+        {
+          "label": "Surgical",
+          "n_alert": 595,
+          "n_usual": 604,
+          "events_alert": 138,
+          "events_usual": 153,
+          "p_alert": 0.2319327731092437,
+          "p_usual": 0.2533112582781457,
+          "rr": 0.9067231969142983,
+          "rr_lo": 0.7438023677939477,
+          "rr_hi": 1.1053298448899818
+        },
+        {
+          "label": "Medical",
+          "n_alert": 1937,
+          "n_usual": 1924,
+          "events_alert": 447,
+          "events_usual": 486,
+          "p_alert": 0.23076923076923078,
+          "p_usual": 0.2525987525987526,
+          "rr": 0.9205676957950326,
+          "rr_lo": 0.8234348024195273,
+          "rr_hi": 1.0291584470941704
+        }
+      ]
+    },
+    {
+      "name": "Baseline creatinine (tertiles: \u22640.80, \u22641.20, >1.20)",
+      "interaction_p": 0.3655809572518955,
+      "interaction_method": "alert \u00d7 subgroup interaction (logistic regression adjusted for hospital)",
+      "rows": [
+        {
+          "label": "Low",
+          "n_alert": 891,
+          "n_usual": 912,
+          "events_alert": 235,
+          "events_usual": 238,
+          "p_alert": 0.26374859708193044,
+          "p_usual": 0.26096491228070173,
+          "rr": 1.0095694201598584,
+          "rr_lo": 0.8651877631925611,
+          "rr_hi": 1.1780453416966172
+        },
+        {
+          "label": "Mid",
+          "n_alert": 795,
+          "n_usual": 801,
+          "events_alert": 170,
+          "events_usual": 199,
+          "p_alert": 0.2138364779874214,
+          "p_usual": 0.2484394506866417,
+          "rr": 0.8710596701896958,
+          "rr_lo": 0.7284520398559998,
+          "rr_hi": 1.041585317244729
+        },
+        {
+          "label": "High",
+          "n_alert": 846,
+          "n_usual": 815,
+          "events_alert": 180,
+          "events_usual": 202,
+          "p_alert": 0.2127659574468085,
+          "p_usual": 0.24785276073619633,
+          "rr": 0.8695909247742117,
+          "rr_lo": 0.7304812373819632,
+          "rr_hi": 1.0351920593605384
+        }
+      ]
+    },
+    {
+      "name": "Study hospital",
+      "interaction_p": 0.025881875648983477,
+      "interaction_method": "Breslow-Day test for OR homogeneity",
+      "rows": [
+        {
+          "label": "Hospital 1",
+          "n_alert": 1197,
+          "n_usual": 1250,
+          "events_alert": 297,
+          "events_usual": 354,
+          "p_alert": 0.24812030075187969,
+          "p_usual": 0.2832,
+          "rr": 0.8761310054798012,
+          "rr_lo": 0.7675589609286011,
+          "rr_hi": 1.0000606830703793
+        },
+        {
+          "label": "Hospital 2",
+          "n_alert": 623,
+          "n_usual": 591,
+          "events_alert": 107,
+          "events_usual": 80,
+          "p_alert": 0.17174959871589085,
+          "p_usual": 0.1353637901861252,
+          "rr": 1.2688001605136436,
+          "rr_lo": 0.9715503028494424,
+          "rr_hi": 1.6569948489521709
+        },
+        {
+          "label": "Hospital 3",
+          "n_alert": 464,
+          "n_usual": 446,
+          "events_alert": 114,
+          "events_usual": 140,
+          "p_alert": 0.24568965517241378,
+          "p_usual": 0.31390134529147984,
+          "rr": 0.7826970443349753,
+          "rr_lo": 0.6342248016768512,
+          "rr_hi": 0.965926689702123
+        },
+        {
+          "label": "Hospital 4",
+          "n_alert": 248,
+          "n_usual": 241,
+          "events_alert": 67,
+          "events_usual": 65,
+          "p_alert": 0.2701612903225806,
+          "p_usual": 0.2697095435684647,
+          "rr": 1.0016749379652605,
+          "rr_lo": 0.7483511938160275,
+          "rr_hi": 1.3407510933888747
+        }
+      ]
+    }
+  ],
+  "footnote": "Squares are Mantel-Haenszel relative risks (stratified by hospital, except for the hospital subgroup itself); bars are 95% confidence intervals. Interaction p-values test whether the alert effect differs across levels of the subgroup."
+}

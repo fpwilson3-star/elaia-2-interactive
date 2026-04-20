@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELAIA-2 · Interactive Paper</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <div class="page">
+    <aside class="toc">
+      <p class="toc-title">Contents</p>
+      <nav>
+        <ol>
+          <li><a href="#abstract">Abstract</a></li>
+          <li><a href="#introduction">Introduction</a></li>
+          <li>
+            <a href="#results">Results</a>
+            <ol>
+              <li><a href="#baseline">Study population</a></li>
+              <li><a href="#primary">Primary outcome</a></li>
+              <li><a href="#mediation">Mediation analysis</a></li>
+              <li><a href="#secondary">Key secondary analyses</a></li>
+              <li><a href="#subgroup">Subgroup analyses</a></li>
+              <li><a href="#safety">Alert safety</a></li>
+              <li><a href="#contamination">Assessment of contamination</a></li>
+            </ol>
+          </li>
+          <li><a href="#discussion">Discussion</a></li>
+          <li><a href="#methods">Methods</a></li>
+          <li><a href="#data-availability">Data availability</a></li>
+          <li><a href="#references">References</a></li>
+        </ol>
+      </nav>
+      <p class="toc-note">
+        Tables and figures in the <strong>Overall</strong> view match the
+        published paper. Cohort selectors let you restrict to pre-specified
+        subgroups.
+      </p>
+    </aside>
+
+    <article class="paper">
+      <header class="paper-header">
+        <p class="eyebrow">Article · Interactive companion</p>
+        <h1>A randomized clinical trial assessing the effect of automated medication-targeted alerts on acute kidney injury outcomes</h1>
+        <p class="authors">
+          F. Perry Wilson, Yu Yamamoto, Melissa Martin, Claudia Coronel-Moreno, Fan Li,
+          Chao Cheng, Abinet Aklilu, Lama Ghazi, Jason H. Greenberg, Stephen Latham,
+          Hannah Melchinger, Sherry G. Mansour, Dennis G. Moledina, Chirag R. Parikh,
+          Caitlin Partridge, Jeffrey M. Testani &amp; Ugochukwu Ugwuowo
+        </p>
+        <p class="pub-info">
+          <em>Nature Communications</em> (2023) 14:2826 ·
+          <a href="https://doi.org/10.1038/s41467-023-38532-3" target="_blank" rel="noopener">doi.org/10.1038/s41467-023-38532-3</a>
+        </p>
+        <p class="pub-info">
+          Received 8 July 2022 · Accepted 28 April 2023 · Trial registration
+          <a href="https://clinicaltrials.gov/ct2/show/NCT02771977" target="_blank" rel="noopener">NCT02771977</a>
+        </p>
+      </header>
+
+      <section id="abstract">
+        <h2>Abstract</h2>
+        <p>
+          Acute kidney injury is common among hospitalized individuals, particularly those
+          exposed to certain medications, and is associated with substantial morbidity and
+          mortality. In a pragmatic, open-label, National Institutes of Health-funded,
+          parallel group randomized controlled trial (clinicaltrials.gov NCT02771977), we
+          investigate whether an automated clinical decision support system affects
+          discontinuation rates of potentially nephrotoxic medications and improves
+          outcomes in patients with AKI. Participants included 5060 hospitalized adults
+          with AKI and an active order for any of three classes of medications of
+          interest: non-steroidal anti-inflammatory drugs, renin–angiotensin–aldosterone
+          system inhibitors, or proton pump inhibitors. Within 24 hours of randomization,
+          a medication of interest was discontinued in 61.1% of the alert group versus
+          55.9% of the usual care group (relative risk 1.08, 1.04–1.14, <em>p</em> =
+          0.0003). The primary outcome — a composite of progression of acute kidney
+          injury, dialysis, or death within 14 days — occurred in 585 (23.1%) of
+          individuals in the alert group and 639 (25.3%) of patients in the usual care
+          group (RR 0.92, 0.83–1.01, <em>p</em> = 0.09).
+        </p>
+      </section>
+
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+          Acute kidney injury (AKI) — an abrupt decline in kidney function — is a major
+          cause of morbidity and mortality among hospitalized patients, associated with
+          an increased hospital length of stay and a 10-fold increase in inpatient
+          mortality. AKI also carries an independent risk for development of chronic
+          kidney disease (CKD), end stage kidney disease, and death.
+        </p>
+        <p>
+          Despite current international best practice guidelines for management of AKI
+          focusing on avoidance of nephrotoxic exposures, studies have shown that AKI,
+          often asymptomatic in presentation, frequently goes unnoticed, and appropriate
+          workup and treatment is inconsistently performed. For example, a retrospective
+          study of 9534 hospitalized patients with severe AKI found that the rate of
+          discontinuation of potentially nephrotoxic medications is low in the early
+          stages of AKI, revealing an opportunity for early intervention that could
+          potentially prevent progression to more severe forms of AKI.
+        </p>
+        <p>
+          Medications that affect kidney function are common contributors to AKI in
+          hospitalized patients. However, international guidelines vary with respect to
+          discontinuation of non-steroidal anti-inflammatory drugs (NSAIDs),
+          renin–angiotensin–aldosterone system inhibitors (RAASi), and proton pump
+          inhibitors (PPIs). Observational studies have shown that NSAIDs, potentially
+          by increasing kidney vasoconstriction, increase the risk of AKI both in and
+          out of the hospital. International guidelines strongly recommend the
+          discontinuation of NSAIDs in the context of AKI. RAASi lower hydrostatic
+          pressure at the glomerulus, thus decreasing the glomerular filtration rate and
+          inhibiting the clearance of uremic toxins. Interestingly, RAASi may also
+          increase kidney peritubular blood flow, potentially protecting against
+          ischemic damage. There is thus debate regarding the utility of RAASi
+          discontinuation during AKI, and this is reflected in guideline recommendations
+          to "consider" discontinuation. PPIs have long been associated with the
+          development of acute interstitial nephritis (AIN), a form of AKI, and have
+          been linked to the progression of CKD. As AIN is likely underdiagnosed in
+          hospitalized patients, and PPIs are likely overprescribed, there is
+          significant interest in whether empiric discontinuation of PPI would affect
+          the course of AKI in this population. To date, international guidelines do not
+          address empiric discontinuation of PPI among patients with AKI. The
+          ELectronic Alerts for AKI Amelioration 2 (ELAIA-2) investigators set out to
+          evaluate the aggregate and individual effect of prompting discontinuation of
+          NSAID, RAASi, and PPI within a single trial framework to provide higher
+          quality evidence to clinicians caring for patients with AKI exposed to these
+          agents.
+        </p>
+        <p>
+          Clinical decision support and best practice alerts have proliferated with the
+          adoption of the electronic health record (EHR), often without rigorous
+          evidence-based support. Trials of alerts for patients with AKI, including our
+          own, have led to mixed results, though the most successful efforts couple
+          alerts to specific, actionable information. In the ELAIA-2 trial, we set out
+          to evaluate the effectiveness of a medication-targeted AKI alert across
+          multiple hospitals within a large health system. Here, we show that alerts
+          can increase the rate of cessation of medications of interest, but have
+          limited effect on key clinical outcomes.
+        </p>
+      </section>
+
+      <section id="results">
+        <h2>Results</h2>
+
+        <section id="baseline">
+          <h3>Study population</h3>
+          <p>
+            From August 16, 2020 to November 29, 2021, 5060 participants were enrolled.
+            The study population was consistent with a hospitalized AKI population
+            (<a href="#table1-section">Table 1</a>). The median (IQR) age was 70 (59–80)
+            years, 2453 (48%) were women, and 968 (19%) described themselves as Black.
+            Common comorbidities included hypertension (68%), congestive heart failure
+            (32%), and CKD (25%).
+          </p>
+          <p>
+            At the time of randomization, 1553 (31%) of patients were receiving NSAIDs,
+            2679 (53%) were receiving RAASi and 3298 (65%) were receiving PPIs. Overlap
+            of MOIs was common, with 2139 (42%) of patients receiving more than one MOI.
+          </p>
+
+          <figure class="interactive" id="table1-section">
+            <div class="fig-top">
+              <figcaption>
+                <strong>Table 1.</strong> Baseline characteristics.
+              </figcaption>
+              <div class="controls">
+                <label for="table1-subgroup">Cohort:</label>
+                <select id="table1-subgroup"></select>
+              </div>
+            </div>
+            <p class="n-summary" id="table1-n"></p>
+            <div id="table1-container"></div>
+            <p class="footnote" id="table1-footnote"></p>
+          </figure>
+        </section>
+
+        <section id="primary">
+          <h3>Effect of alerts on progression of AKI, dialysis, and death</h3>
+          <p>
+            On the basis of a prespecified interim analysis (N = 1980), which found that
+            the primary outcome occurred in 255 (24.7%) of individuals in the alert
+            group and 254 (26.8%) of those in the usual care group (<em>p</em> = 0.30),
+            the external DSMB recommended the trial proceed to full recruitment. In the
+            final analysis (N = 5060), the primary outcome occurred in 585 (23.1%) of
+            individuals in the alert group and 639 (25.3%) of patients in the usual
+            care group (RR 0.92, 0.83–1.01, <em>p</em> = 0.09). The effect of the alert
+            among pre-specified subgroups defined by exposure to a given MOI
+            demonstrated a benefit among those exposed to PPIs. In the PPI-exposed
+            subgroup (n = 3298), 445 (27%) of individuals in the alert arm experienced
+            the primary outcome compared to 508 (31%) of those in the usual care arm
+            (RR 0.88, 0.79–0.98, <em>p</em> = 0.02) (<a href="#fig1-section">Fig. 1</a>).
+          </p>
+
+          <figure class="interactive" id="fig1-section">
+            <div class="fig-top">
+              <figcaption>
+                <strong>Figure 1.</strong> <span id="fig1-caption"></span>
+              </figcaption>
+              <div class="controls">
+                <label for="fig1-view">Cohort:</label>
+                <select id="fig1-view"></select>
+              </div>
+            </div>
+            <p class="n-summary" id="fig1-n"></p>
+            <div id="fig1-plot" class="plot"></div>
+            <div id="fig1-readout" class="plot-readout"></div>
+            <p class="footnote" id="fig1-footnote"></p>
+          </figure>
+        </section>
+
+        <section id="mediation">
+          <h3>Mediation analysis of alert effects</h3>
+          <p>
+            Alerts may provide patient benefit beyond medication discontinuation (such
+            as by promoting further diagnostic workup, treatment, or avoidance of
+            nephrotoxins). As the PPI subgroup was the only one to show a significant
+            overall effect of the alert, we performed mediation analysis to determine
+            if the clinical effect of the alert was driven by cessation of PPI. In the
+            unadjusted analysis without any baseline covariates, we observed that the
+            alerts decreased the relative odds of death, dialysis, and progression of
+            AKI by 18% (total effect on odds ratios of 0.82; 95% CI: [0.72, 0.97]), and
+            that 10.7% of that total effect was mediated through PPI cessation (95% CI:
+            [2.9%, 44.7%]). We repeated the analysis adjusting for potential
+            confounders, and the results remained similar.
+          </p>
+        </section>
+
+        <section id="secondary">
+          <h3>Key secondary analyses</h3>
+          <p>
+            Within 24 h of randomization, an MOI was discontinued in 61.1% of the alert
+            group and 55.9% of the usual care group (relative risk 1.08, 1.04–1.14,
+            <em>p</em> = 0.0003). The NSAID was discontinued in 82% of the alert group
+            and 79% of the usual care group (RR 1.04, 0.99–1.09). RAASi were
+            discontinued in 71% of the alert group and 62% of the usual care group (RR
+            1.14, 1.08–1.21). PPIs were discontinued in 22% of the alert group and 17%
+            of the usual care group (RR 1.26, 1.10–1.45) (<a href="#fig2-section">Fig. 2</a>).
+          </p>
+
+          <figure class="interactive" id="fig2-section">
+            <div class="fig-top">
+              <figcaption>
+                <strong>Figure 2.</strong> <span id="fig2-caption"></span>
+              </figcaption>
+              <div class="controls">
+                <label for="fig2-view">Cohort:</label>
+                <select id="fig2-view"></select>
+              </div>
+            </div>
+            <p class="n-summary" id="fig2-n"></p>
+            <div id="fig2-plot" class="plot"></div>
+            <div id="fig2-readout" class="plot-readout"></div>
+            <p class="footnote" id="fig2-footnote"></p>
+          </figure>
+
+          <p>
+            Secondary outcomes appear in <a href="#table2-section">Table 2</a>. There
+            was no significant effect of alerting on the individual components of the
+            composite outcome, nor did we observe an effect on duration of AKI, 30-day
+            readmission, the rate of kidney consults, or total hospital cost. Among the
+            PPI group, alerting was associated with a 12% reduced risk of progression of
+            AKI (<em>p</em> = 0.05). Manual adjudication of AKI recognition is ongoing
+            at the time of this publication and will be reported in a future manuscript.
+          </p>
+
+          <figure class="interactive" id="table2-section">
+            <div class="fig-top">
+              <figcaption>
+                <strong>Table 2.</strong> Secondary outcomes.
+              </figcaption>
+              <div class="controls">
+                <label for="table2-subgroup">Cohort:</label>
+                <select id="table2-subgroup"></select>
+              </div>
+            </div>
+            <p class="n-summary" id="table2-n"></p>
+            <div id="table2-container"></div>
+            <p class="footnote" id="table2-footnote"></p>
+          </figure>
+        </section>
+
+        <section id="subgroup">
+          <h3>Subgroup analyses</h3>
+          <p>
+            Figure 3 demonstrates the effect of the alert on the composite outcome
+            across pre-specified subgroups of interest. There was no significant change
+            in alert effect across any clinical subgroup, including among patients in
+            the ICU vs. non-ICU, those admitted to a surgical versus a medical service,
+            or based upon the baseline serum creatinine concentration. There was
+            significant heterogeneity of alert effect across the four study hospitals
+            (<em>p</em> = 0.03).
+          </p>
+          <figure class="interactive" id="fig3-section">
+            <div class="fig-top">
+              <figcaption>
+                <strong>Figure 3.</strong> <span id="fig3-caption"></span>
+              </figcaption>
+            </div>
+            <div id="fig3-plot" class="plot"></div>
+            <p class="footnote" id="fig3-footnote"></p>
+          </figure>
+        </section>
+
+        <section id="safety">
+          <h3>Alert safety</h3>
+          <p>
+            Pre-specified safety outcomes appear in Table 3. In the NSAID group, we did
+            not observe a significant increase in the use of opioids or higher pain
+            scores in the alert group. In the RAASi group, we did not observe
+            significant differences in blood pressure parameters or the need for
+            mechanical ventilation. In the PPI group, we did not observe differences in
+            the rate of blood transfusion, the minimum hemoglobin level attained, or
+            the maximum pain score.
+          </p>
+          <figure class="interactive" id="table3-section">
+            <div class="fig-top">
+              <figcaption>
+                <strong>Table 3.</strong> Pre-specified safety outcomes by
+                medication-of-interest subgroup.
+              </figcaption>
+            </div>
+            <div id="table3-container"></div>
+            <p class="footnote" id="table3-footnote"></p>
+          </figure>
+        </section>
+
+        <section id="contamination">
+          <h3>Assessment of contamination</h3>
+          <p>
+            In theory, providers could "learn" to discontinue MOIs when they receive
+            alerts, and apply that knowledge to patients randomized to usual care. To
+            assess the extent of contamination across study arms, we conducted several
+            analyses. First, we examined whether the effect of the alert was attenuated
+            the longer the alert had been active in a study hospital and did not find a
+            significant effect (interaction <em>p</em> = 0.51). Second, we examined the
+            effect of prior provider exposure to these alerts on alert efficacy. In
+            this analysis, we found no significant interaction between the number of
+            alerts a provider had seen prior to a given alert and the overall efficacy
+            of alerting (<em>p</em>-for-interaction = 0.48). While we had planned to
+            compare historical outcome rates, these are less informative than we had
+            hoped, as this trial was conducted during the COVID pandemic, which seems
+            to have been associated with an increased acuity of illness in this
+            population (historical composite outcome rate for theoretically eligible
+            patients (N = 1074) 16.8% versus 26.8% in the control group of this study).
+          </p>
+        </section>
+      </section>
+
+      <section id="discussion">
+        <h2>Discussion</h2>
+        <p>
+          This pragmatic, randomized trial of medication-targeted electronic alerts for
+          AKI found that alerts had a significant impact on reducing exposure to the
+          medications of interest, but no significant effect on the primary outcome of
+          progression of AKI, dialysis, or death. However, the alert was associated
+          with clinical benefit among individuals receiving PPI at the time of
+          randomization; PPI-exposed individuals comprised the majority of the study
+          cohort.
+        </p>
+        <p>
+          Prior research into the efficacy of alerting for AKI has shown mixed results.
+          In part, this is due to the variety of study designs employed to evaluate AKI
+          alerts (which range from retrospective before/after analyses, to
+          stepped-wedge designs, to individual-level randomized trials). In addition,
+          the nature of the alerts studied varies significantly, ranging from e-mail
+          based notifications to electronic "pop ups" of the sort tested in this
+          study. Our group has conducted two prior randomized trials evaluating purely
+          informational AKI alerts which, while showing a modest effect on process
+          outcomes, did not demonstrate an improvement in clinical outcomes.
+        </p>
+        <p>
+          Several studies show that AKI alerts have substantial promise when executed
+          appropriately. A stepped-wedge trial by Selby et al. showed that AKI alerts
+          coupled to a care bundle and an educational AKI package led to a significantly
+          reduced hospital length of stay, but no change in overall mortality. A large
+          before / after study of a clinical decision support system for AKI including
+          more than 500,000 patients found that hospital mortality decreased by around
+          10% among those with AKI compared to no change in those without AKI between
+          the pre- and post-intervention period, but this study design precluded a
+          causal analysis. The Nephrotoxic Injury Negated by Just-in-Time Action
+          (NINJA) program has successfully demonstrated how alerts targeting medications
+          can improve outcomes in children with AKI. Together with those studies, our
+          study suggests that alerts coupled with actionable processes may improve
+          outcomes for certain patients with AKI.
+        </p>
+        <p>
+          We were surprised to see no clinical benefit of alerts in the NSAID subgroup.
+          We targeted this class of medications given the broad consensus and
+          international guidelines that suggest discontinuing NSAIDs in the setting of
+          AKI given their known potent adverse biological effects on kidney health.
+          While the alert did numerically increase the rate of cessation of NSAIDs, the
+          effect was not statistically significant. The control rate of NSAID cessation
+          was the highest of any class, indicating that many physicians are stopping
+          NSAIDs during AKI. Alerts can only translate to clinical benefit when they
+          induce a substantial change in provider behavior.
+        </p>
+        <p>
+          Our observation that alerts reduced the primary outcome among those treated
+          with PPIs has several potential explanations. Although this was a
+          pre-specified subgroup analysis, there is the possibility that this signal is
+          due to chance. Alternatively, there may be a causal link between PPI-use and
+          AKI which is ameliorated by cessation in the context of alerting. Prior
+          research, predominantly observational, has elucidated associations between
+          PPI and AKI, and particularly acute interstitial nephritis. Research has also
+          suggested a link between PPI use and CKD. We also recognize that the alert
+          may have effects on AKI diagnosis, management, and treatment beyond
+          medication cessation alone. In that context, the observed benefit among those
+          receiving PPIs may be due to the fact that PPI use flags a distinct
+          population of patients that benefit from AKI alerts in general. We note, for
+          example, that those receiving PPIs were in more acutely ill than those who
+          were not receiving PPI — with a higher proportion randomized in the ICU, and
+          overall worse outcomes. Our mediation analysis, though underpowered,
+          suggests that there are multiple pathways of alert benefit in this
+          population, with some, but likely not the majority, benefit mediated by
+          actual cessation of the PPI. Further studies to elucidate the mechanism of
+          PPI-associated AKI and the benefit of withholding these medications in the
+          setting of changes in kidney function are needed.
+        </p>
+        <p>
+          We were also intrigued to examine the data surrounding the alert targeting
+          those on RAASi. Substantial debate exists about the utility of stopping
+          these agents during AKI. RAASi reduce glomerular hydrostatic pressure and
+          thus GFR which may lead to harm by decreasing clearance of uremic byproducts.
+          On the other hand, they increase kidney perfusion which theoretically may
+          reduce ongoing ischemia and allow for more rapid AKI recovery. While the
+          alert led to significantly greater cessation of RAASi, we saw no effect on
+          clinical outcomes, suggesting that these two forces may be in balance.
+          Future studies may examine the benefit of stopping (or continuing) RAASi in
+          key patient populations — such as those with AKI and heart failure.
+        </p>
+        <p>
+          Limitations of this study include the fact that only three medication classes
+          were targeted. There are many other medications, including aminoglycoside
+          antibiotics, certain types of chemotherapy, and others that are potentially
+          nephrotoxic. However, we designed this trial not only to inform the benefit
+          of alerting for AKI in the setting of medication exposures, but to evaluate
+          the impact of cessation of key often-used medication classes in the setting
+          of AKI. This has allowed us to conduct careful sub-group analyses that
+          suggest that, for example, cessation of PPI may be reasonable among those
+          with AKI. Other limitations include the fact that this trial was randomized
+          at the patient level, which introduces the possibility of contamination, as
+          providers who receive alerts may learn how better to care for AKI patients
+          over time. Alternative designs, such as cluster-randomized or stepped-wedge
+          designs might ameliorate this, but simulation studies have shown that, in
+          the setting of potential contamination, statistical power is maximized
+          through inflation of sample size (as done here) more efficiently than by
+          conversion to a cluster or stepped-wedge design. In addition, the lack of
+          effect modification by study time suggests that there was limited
+          contamination of the usual care arm of the study. This study was conducted
+          within a single health system in the Northeastern US, potentially limiting
+          generalizability, but the hospitals included serve a demographically and
+          economically diverse population. In addition, our alerts did not exist in a
+          vacuum, but in competition with all the other clinical alerts and
+          distractions that are enabled by the EHR. Alert fatigue may diminish alert
+          performance. Moreover, in order to meet requirements set out by the IRB, the
+          language of the alert was limited in how stringently it could recommend
+          medication cessation; more forceful wording could have increased cessation
+          rates, and, potentially, clinical effectiveness. Finally, AKI is a
+          heterogenous disease; alerts may have different efficacy depending on the
+          underlying mechanism (for example, alerts to stop NSAIDs might be
+          particularly useful in the setting of hemodynamic AKI). However, the ability
+          to determine the underlying cause of AKI in real time is difficult even for
+          trained nephrologists, more so for electronic algorithms.
+        </p>
+        <p>
+          Strengths of this study include its sample size, which was adequate to
+          detect a clinically meaningful impact of alerting, its use of a clinical
+          outcome, focus on agents commonly used in the inpatient setting,
+          randomization, and diverse patient mix.
+        </p>
+        <p>
+          In conclusion, this pragmatic, randomized trial of automated, electronic
+          alerting for individuals with AKI exposed to common kidney-relevant
+          medications suggests that there is unlikely to be broad-based benefit to all
+          patients, but those exposed to PPIs may benefit.
+        </p>
+      </section>
+
+      <section id="methods">
+        <h2>Methods</h2>
+
+        <h3>Study design</h3>
+        <p>
+          The protocol was carried out according to the principles in the Declaration
+          of Helsinki and approved by the Yale Human Investigations Committee (HIC
+          #2000025786) which approved a waiver of informed consent. A reliance
+          agreement was obtained from the Bridgeport Hospital and Greenwich Hospital
+          IRBs as well. A waiver of informed consent was granted on the basis that the
+          intervention was minimal risk, that the rights and welfare of participants
+          were protected, and that the study could not be feasibly conducted with
+          consent (as the act of consent would serve to be an AKI alert of sorts).
+          ELAIA-2 was a multicenter, parallel-group, pragmatic, open-label randomized
+          trial of a real-time EHR alert for AKI among individuals exposed to one or
+          more of three classes of kidney-relevant MOIs: NSAIDs; RAASi and PPIs. These
+          three classes were chosen as consensus recommendations regarding their
+          empiric discontinuation in patients with AKI vary. The trial was
+          pre-registered at
+          <a href="https://clinicaltrials.gov/ct2/show/NCT02771977" target="_blank" rel="noopener">clinicaltrials.gov/NCT02771977</a>
+          on May 03, 2016 prior to any patient enrollment and no protocol modifications
+          occurred after the study was launched.
+        </p>
+
+        <h3>Participants</h3>
+        <p>
+          Enrollment was automated, with inclusion and exclusion criteria built into
+          the alert system itself. Eligible patients were adults ≥ 18 years old who
+          were admitted to one of four participating study hospitals, had AKI as
+          defined by the Kidney Disease: Improving Global Outcomes (KDIGO) serum
+          creatinine criteria (at least 50% increase in creatinine within 7 days or a
+          0.3 mg/dL increase within 48 h), and had an active order for one or more of
+          the three MOIs. Patients were excluded if their initial creatinine after
+          admission was ≥ 4.0 mg/dL or if they had received dialysis within the year
+          prior to meeting the AKI definition, if they had been admitted to a hospice
+          service or had an active "comfort measures only" order, if they had a
+          diagnosis code consistent with end-stage kidney disease, or if they had a
+          kidney transplant within the 6 months prior to randomization.
+        </p>
+
+        <h3>Randomization and masking</h3>
+        <p>
+          Allocation was in a 1:1 ratio, achieved via simple randomization within the
+          EHR. Participants and providers were necessarily not masked to the
+          intervention, but the study investigators were.
+        </p>
+
+        <h3>Intervention</h3>
+        <p>
+          The intervention was a "pop-up" electronic alert embedded within the EHR
+          (Epic systems, Verona WI). The alert would display when a provider (MD, DO,
+          PA, or APRN, regardless of whether a primary or consulting provider) opened
+          the order entry tab of the patient's chart. Alerts would display once per
+          provider on a 24-h basis, provided the patient still met AKI criteria and
+          continued to have an active prescription for one of the MOIs. The alert
+          prompted providers to "consider clinical indication for the following
+          medications!" It included information regarding the patient's creatinine
+          level and trend and enumerated the class of MOI and specific MOI that was
+          currently ordered. It also provided a direct link to the order entry system
+          to allow for potential discontinuation of the listed medication. Patients
+          randomized to the control group were identified via a silent alert (not
+          shown to providers, but logged in the system), and received usual care.
+        </p>
+
+        <h3>Outcomes</h3>
+        <p>
+          The primary outcome was a composite of progression of AKI, receipt of
+          dialysis, or death within 14 days of randomization or hospital discharge.
+          Progression of AKI was defined by achieving a higher KDIGO AKI stage than
+          the stage present at initial randomization (stage 2 represents a doubling of
+          creatinine, stage 3 a tripling of creatinine). Secondary outcomes included
+          the components of the primary outcome (at 14 days and during the entire
+          admission), the proportion of patients who did not receive one or more MOIs
+          for which they were enrolled within 24 h and while AKI was still present,
+          the duration of AKI, the rate of readmission at 30-days, and hospital costs
+          (as determined by internal cost accounting independent of insurance status).
+        </p>
+        <p>
+          Strength of guidance regarding empiric discontinuation of the MOIs differed
+          by medication class, as well as by the mechanisms by which they influence
+          renal function, prompting us to pre-specify subgroup analyses stratified by
+          the MOI being received at randomization. We further identified key safety
+          outcomes that may be associated with discontinuation of each class of
+          MOI — all within 14 days or hospital discharge. For NSAIDs, we assessed the
+          rate of prescription of opioid analgesics and maximum pain scores. For
+          RAASi, we assessed the maximum achieved systolic and diastolic blood
+          pressure and the rate of intubation (a proxy for flash pulmonary edema).
+          For PPIs, we assessed the rate of blood transfusion (as inappropriate
+          cessation of PPI may increase the risk of gastrointestinal bleeding), the
+          minimum hemoglobin achieved, and maximum pain scores to capture epigastric
+          pain consequent to PPI cessation.
+        </p>
+        <p>
+          Based on data from our prior trial, we expected the primary outcome to
+          occur in 18.2% of control patients and considered a relative reduction of
+          20% to 14.6% would be clinically significant. The target sample size of
+          5060 individuals provided 90% power to detect a difference at least this
+          large, accounting for two interim analyses and potential 10% contamination
+          of intervention across study arms.
+        </p>
+
+        <h3>Statistical analysis</h3>
+        <p>
+          We present data as median (interquartile range — IQR) or count (proportion)
+          as appropriate. We compared categorical variables across the treatment
+          groups with the use of the Cochran–Mantel–Haenszel chi-squared test
+          stratified by the four study hospitals. We assessed continuous outcomes
+          using the Van Elteren test, accounting for clustering by study hospital.
+          All data was analyzed using the intention-to-treat principle. Subgroup
+          analyses presented herein were pre-specified. Due to the interim analysis,
+          the two-sided <em>p</em>-value threshold for statistical significance of
+          the primary outcome was 0.0498 based on the Hwang–Shih–DeCani spending
+          function. Secondary outcomes are evaluated at a two-sided <em>p</em>-value
+          threshold of 0.05 without multiplicity adjustment and should be considered
+          hypothesis generating. Subgroup analyses, while pre-specified, should be
+          considered exploratory.
+        </p>
+        <p>
+          We determined whether observed clinical effects were driven by cessation of
+          target agents by performing mediation analyses treating cessation of the
+          MOI as a binary mediator. The product of coefficients method was used to
+          evaluate whether MOI cessation mediates the relationship between
+          intervention and composite outcome. Baseline covariates, including age,
+          sex, ICU at randomization, creatinine, hemoglobin, platelet counts, the use
+          of other MOIs and time from admission to randomization, were adjusted to
+          control for mediator-outcome confounding, and bootstrapping was used to
+          calculate the 95% confidence interval for proportion mediated.
+        </p>
+        <p>
+          All statistical tests were performed in Stata version 15 (College Station,
+          TX), SAS v9.4 (Cary, NC), and R v4.0.1 (Boston, MA).
+        </p>
+      </section>
+
+      <section id="data-availability">
+        <h2>Data availability</h2>
+        <p>
+          The data generated in this study have been deposited in the DataDryad
+          database under accession code
+          <a href="https://doi.org/10.5061/dryad.kh189327p" target="_blank" rel="noopener">doi.org/10.5061/dryad.kh189327p</a>.
+          This data can be accessed and used for scientific research without
+          permission from the authors. The DSMB has approved the release of this
+          deidentified dataset.
+        </p>
+      </section>
+
+      <section id="references">
+        <h2>References</h2>
+        <p class="note">
+          Inline citation numbers have been omitted for readability in this interactive
+          companion; the full bibliography below matches the published paper.
+        </p>
+        <ol class="references">
+          <li>Hoste, E. A. J. <em>et al.</em> Epidemiology of acute kidney injury in critically ill patients: the multinational AKI-EPI study. <em>Intensive Care Med.</em> <strong>41</strong>, 1411–1423 (2015).</li>
+          <li>Silver, S. A., Long, J., Zheng, Y. &amp; Chertow, G. M. Cost of acute kidney injury in hospitalized patients. <em>J. Hosp. Med.</em> <strong>12</strong>, 70–76 (2017).</li>
+          <li>Wonnacott, A., Meran, S., Amphlett, B., Talabani, B. &amp; Phillips, A. Epidemiology and outcomes in community-acquired versus hospital-acquired AKI. <em>Clin. J. Am. Soc. Nephrol.</em> <strong>9</strong>, 1007–1014 (2014).</li>
+          <li>Coca, S. G., Singanamala, S. &amp; Parikh, C. R. Chronic kidney disease after acute kidney injury: a systematic review and meta-analysis. <em>Kidney Int.</em> <strong>81</strong>, 442–448 (2012).</li>
+          <li>Acosta-Ochoa, I. <em>et al.</em> Impact on outcomes across KDIGO-2012 AKI criteria according to baseline renal function. <em>J. Clin. Med.</em> <strong>8</strong>, 1323 (2019).</li>
+          <li>Zeng, X., McMahon, G. M., Brunelli, S. M., Bates, D. W. &amp; Waikar, S. S. Incidence, outcomes, and comparisons across definitions of AKI in hospitalized individuals. <em>Clin. J. Am. Soc. Nephrol.</em> <strong>9</strong>, 12–20 (2014).</li>
+          <li>Ishani, A. <em>et al.</em> Acute kidney injury increases risk of ESRD among elderly. <em>J. Am. Soc. Nephrol.</em> <strong>20</strong>, 223–228 (2009).</li>
+          <li>Ftouh, S. &amp; Thomas, M. Acute kidney injury: summary of NICE guidance. <em>BMJ</em> <strong>347</strong>, f4930 (2013).</li>
+          <li>Kellum, J. A. <em>et al.</em> KDIGO clinical practice guideline for acute kidney injury. <em>Kidney Int. Suppl.</em> <strong>2</strong>, 1–138 (2012).</li>
+          <li>Srisawat, N. <em>et al.</em> Variation in risk and mortality of acute kidney injury in critically ill patients: a multicenter study. <em>Am. J. Nephrol.</em> <strong>41</strong>, 81–88 (2015).</li>
+          <li>Tawadrous, D. <em>et al.</em> Use of clinical decision support systems for kidney-related drug prescribing: a systematic review. <em>Am. J. Kidney Dis.</em> <strong>58</strong>, 903–914 (2011).</li>
+          <li>Finlay, S. <em>et al.</em> Identification of risk factors associated with acute kidney injury in patients admitted to acute medical units. <em>Clin. Med.</em> <strong>13</strong>, 233 (2013).</li>
+          <li>Moledina, D. G. <em>et al.</em> Variation in best practice measures in patients with severe hospital-acquired acute kidney injury: a multicenter study. <em>Am. J. Kidney Dis.</em> <strong>77</strong>, 547–549 (2021).</li>
+          <li>Chou, C. I. <em>et al.</em> Adverse effects of oral nonselective and cyclooxygenase-2-selective NSAIDs on hospitalization for acute kidney injury: a nested case–control cohort study. <em>Medicine</em> <strong>95</strong>, e2645 (2016).</li>
+          <li>Lafrance, J. P. &amp; Miller, D. R. Selective and non-selective non-steroidal anti-inflammatory drugs and the risk of acute kidney injury. <em>Pharmacoepidemiol. Drug Saf.</em> <strong>18</strong>, 923–931 (2009).</li>
+          <li>Clavé, S., Rousset-Rouvière, C., Daniel, L. &amp; Tsimaratos, M. The invisible threat of non-steroidal anti-inflammatory drugs for kidneys. <em>Front Pediatr.</em> <strong>7</strong>, 520 (2019).</li>
+          <li>Arora, P. <em>et al.</em> Preoperative use of angiotensin-converting enzyme inhibitors/angiotensin receptor blockers is associated with increased risk for acute kidney injury after cardiovascular surgery. <em>Clin. J. Am. Soc. Nephrol.</em> <strong>3</strong>, 1266–1273 (2008).</li>
+          <li>Chaumont, M. <em>et al.</em> Acute kidney injury in elderly patients with chronic kidney disease: do angiotensin-converting enzyme inhibitors carry a risk? <em>J. Clin. Hypertens.</em> <strong>18</strong>, 514–521 (2016).</li>
+          <li>Hsu, C.-y. <em>et al.</em> Renin-angiotensin system blockade after acute kidney injury (AKI) and risk of recurrent AKI. <em>Clin. J. Am. Soc. Nephrol.</em> <strong>15</strong>, 26–34 (2020).</li>
+          <li>Brar, S. <em>et al.</em> Association of angiotensin-converting enzyme inhibitor or angiotensin receptor blocker use with outcomes after acute kidney injury. <em>JAMA Intern. Med.</em> <strong>178</strong>, 1681–1690 (2018).</li>
+          <li>Tomson, C. &amp; Tomlinson, L. A. Stopping RAS inhibitors to minimize AKI: more harm than good? <em>Clin. J. Am. Soc. Nephrol.</em> <strong>14</strong>, 617 (2019).</li>
+          <li>Lazarus, B. <em>et al.</em> Proton pump inhibitor use and the risk of chronic kidney disease. <em>JAMA Intern. Med.</em> <strong>176</strong>, 238–246 (2016).</li>
+          <li>Antoniou, T. <em>et al.</em> Proton pump inhibitors and the risk of acute kidney injury in older patients: a population-based cohort study. <em>CMAJ Open</em> <strong>3</strong>, E166–E171 (2015).</li>
+          <li>Yang, Y. <em>et al.</em> Proton-pump inhibitors use, and risk of acute kidney injury: a meta-analysis of observational studies. <em>Drug Des. Devel. Ther.</em> <strong>11</strong>, 1291 (2017).</li>
+          <li>Hart, E., Dunn, T. E., Feuerstein, S. &amp; Jacobs, D. M. Proton pump inhibitors and risk of acute and chronic kidney disease: a retrospective cohort study. <em>Pharmacother.</em> <strong>39</strong>, 443–453 (2019).</li>
+          <li>Moledina, D. G. &amp; Perazella, M. A. PPIs and kidney disease: from AIN to CKD. <em>J. Nephrol.</em> <strong>29</strong>, 611–616 (2016).</li>
+          <li>Eid, S. M. <em>et al.</em> Patterns and predictors of proton pump inhibitor overuse among academic and non-academic hospitalists. <em>Intern. Med.</em> <strong>49</strong>, 2561–2568 (2010).</li>
+          <li>Ksidzyna, D., Szelg, A. &amp; Paradowski, L. Overuse of proton pump inhibitors. <em>Pol. Arch. Med. Wewn.</em> <strong>125</strong>, 289–298 (2015).</li>
+          <li>Ramirez, E. <em>et al.</em> Overuse of PPIs in patients at admission, during hospitalisation, and at discharge in a terciary Spanish hospital. <em>Curr. Clin. Pharm.</em> <strong>5</strong>, 288–297 (2010).</li>
+          <li>Wilson, F. P. <em>et al.</em> Automated, electronic alerts for acute kidney injury: a single-blind, parallel-group, randomised controlled trial. <em>Lancet</em> <strong>385</strong>, 1966–1974 (2015).</li>
+          <li>Wilson, F. P. <em>et al.</em> Electronic health record alerts for acute kidney injury: multicenter, randomized clinical trial. <em>BMJ</em> <strong>372</strong>, m4786 (2021).</li>
+          <li>Selby, N. M. <em>et al.</em> An organizational-level program of intervention for AKI: a pragmatic stepped wedge cluster randomized trial. <em>J. Am. Soc. Nephrol.</em> <strong>30</strong>, 505–515 (2019).</li>
+          <li>Goldstein, S. L. <em>et al.</em> A prospective multi-center quality improvement initiative (NINJA) indicates a reduction in nephrotoxic acute kidney injury in hospitalized children. <em>Kidney Int.</em> <strong>97</strong>, 580–588 (2020).</li>
+          <li>Lachance, P. <em>et al.</em> Association between e-alert implementation for detection of acute kidney injury and outcomes: a systematic review. <em>Nephrol. Dial. Transpl.</em> <strong>32</strong>, 265–272 (2017).</li>
+          <li>Al-Jaghbeer, M., Dealmeida, D., Bilderback, A., Ambrosino, R. &amp; Kellum, J. A. Clinical decision support for in-hospital AKI. <em>J. Am. Soc. Nephrol.</em> <strong>29</strong>, 654–660 (2018).</li>
+          <li>Chen, G. <em>et al.</em> Acute kidney injury following the use of different proton pump inhibitor regimens: a real-world analysis of post-marketing surveillance data. <em>J. Gastroenterol. Hepatol.</em> <strong>36</strong>, 156–162 (2021).</li>
+          <li>Leonard, C. E. <em>et al.</em> Proton pump inhibitors and traditional non-steroidal anti-inflammatory drugs and the risk of acute interstitial nephritis and acute kidney injury. <em>Pharmacoepidemiol. Drug Saf.</em> <strong>21</strong>, 1155–1172 (2012).</li>
+          <li>Moledina, D. G. &amp; Perazella, M. A. Proton pump inhibitors and CKD. <em>J. Am. Soc. Nephrol.</em> <strong>27</strong>, 2926–2928 (2016).</li>
+          <li>Milne, B., Gilbey, T., Ostermann, M. &amp; Kunst, G. Pro: we should stop ACE inhibitors early before cardiac surgery to prevent post-operative acute kidney injury. <em>J. Cardiothorac. Vasc. Anesth.</em> <strong>34</strong>, 2832–2835 (2020).</li>
+          <li>Tempe, D. K. &amp; Hasija, S. Con: does preoperative discontinuation of angiotensin-converting enzyme inhibitors/angiotensin II receptor blockers reduce postoperative acute kidney injury. <em>J. Cardiothorac. Vasc. Anesth.</em> <strong>34</strong>, 2836–2838 (2020).</li>
+          <li>Torgerson, D. J. Contamination in trials: is cluster randomisation the answer. <em>BMJ</em> <strong>322</strong>, 355–357 (2001).</li>
+          <li>Hemming, K., Taljaard, M., Moerbeek, M. &amp; Forbes, A. Contamination: How much can an individually randomized trial tolerate. <em>Stat. Med.</em> <strong>40</strong>, 3329–3351 (2021).</li>
+          <li>Mehta, S. <em>et al.</em> The prognostic importance of duration of AKI: a systematic review and meta-analysis. <em>BMC Nephrol.</em> <strong>19</strong>, 1–10 (2018).</li>
+          <li>Hwang, I. K., Shih, W. J. &amp; De Cani, J. S. Group sequential designs using a family of type I error probability spending functions. <em>Stat. Med.</em> <strong>9</strong>, 1439–1445 (1990).</li>
+          <li>Wilson, F. <em>Automated, medication-targeted alerts for Acute Kidney Injury — A randomized trial</em>, Dryad, <a href="https://doi.org/10.5061/dryad.kh189327p" target="_blank" rel="noopener">doi.org/10.5061/dryad.kh189327p</a> (2023).</li>
+        </ol>
+      </section>
+
+      <footer class="paper-footer">
+        <p>
+          This interactive companion reproduces the original article published in
+          <em>Nature Communications</em> under a
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution 4.0 International License</a>.
+          Published analyses are unchanged; subgroup re-analyses should be considered
+          exploratory.
+        </p>
+        <p>
+          © The Author(s) 2023. Source code for this companion site:
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>.
+        </p>
+      </footer>
+    </article>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
